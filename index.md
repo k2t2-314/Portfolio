@@ -21,3 +21,14 @@ This section highlights my academic research and thesis-related work, focusing o
 * * *
 
 ## Hand Exoskeleton
+
+**Institution:** Carnegie Mellon University  
+**Role:** Research Assistant (Sep 2024 – Present)  
+**Tools:** SolidWorks · EMG Sensors · OpenCV · Arduino · Python (Supervised Learning Models)
+
+#### 🔍 Overview
+This research project aims to develop an intelligent hand exoskeleton system for spinal cord injury (SCI) patients, enabling motion assistance and rehabilitation through sensor-driven control. The device is designed to actuate not only individual fingers but also the wrist, supporting full-hand movement. Surface EMG sensors placed on the forearm detect muscle activity, while a vision-based system tracks real hand motion to provide training data.
+
+
+
+
