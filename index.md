@@ -11,7 +11,7 @@ This portfolio showcases selected projects that highlight my technical capabilit
 
 > Feel free to explore the projects below — each includes a summary, technical highlights, and visuals.
 > 
-> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](https://linkedin.com/in/xinxuant314).
+> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](https://www.linkedin.com/in/iristang314)).
 > 📄 [Download Resume (PDF)](https://github.com/k2t2-314/resume.pdf)
 
 # Thesis & Research Projects
@@ -26,8 +26,10 @@ This section highlights my academic research and thesis-related work, focusing o
 **Role:** Research Assistant (Sep 2024 – Present)  
 **Tools:** SolidWorks · EMG Sensors · OpenCV · Arduino · Python (Supervised Learning Models)
 
-#### 🔍 Overview
+#### Overview
 This research project aims to develop an intelligent hand exoskeleton system for spinal cord injury (SCI) patients, enabling motion assistance and rehabilitation through sensor-driven control. The device is designed to actuate not only individual fingers but also the wrist, supporting full-hand movement. Surface EMG sensors placed on the forearm detect muscle activity, while a vision-based system tracks real hand motion to provide training data.
+
+![Prototype Image](/assets/img/Exo.png)
 
 
 
