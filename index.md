@@ -11,7 +11,7 @@ This portfolio showcases selected projects that highlight my technical capabilit
 
 > Feel free to explore the projects below
 > 
-> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](https://www.linkedin.com/in/iristang314)).
+> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](https://www.linkedin.com/in/xinxuantang)).
 
 # Thesis & Research Projects
 
