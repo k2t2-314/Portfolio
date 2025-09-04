@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Iris Tang – Projects
+title: Projects
+permalink: /projects.html
 ---
 
+<!-- Navigation -->
 <div style="margin-bottom: 30px;">
   <a href="/">🏠 Home</a> |
   <a href="/projects.html">🛠 Projects</a> |
