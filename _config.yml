@@ -1,3 +1,10 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      styles: /assets/css/custom.css
+
 title: Xinxuan Tang
 description: Preferred Name: Iris
 logo: /assets/img/logo_self.jpg
