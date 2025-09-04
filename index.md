@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iris Tang – Home
+title: Home
 ---
 
 <!-- Navigation Bar -->
