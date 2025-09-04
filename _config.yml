@@ -7,6 +7,8 @@ show_downloads: false
 github:
   is_user_page: false
   is_project_page: false
+url: "https://k2t2-314.github.io"
+baseurl: "/Portfolio"
 theme: jekyll-theme-minimal
 
 defaults:
