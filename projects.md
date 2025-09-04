@@ -6,9 +6,9 @@ permalink: /projects.html
 
 <!-- Navigation -->
 <div style="margin-bottom: 30px;">
-  <a href="/">🏠 Home</a> |
-  <a href="/projects.html">🛠 Projects</a> |
-  <a href="/contact.html">📬 Contact</a>
+  <a href="/Portfolio/">🏠 Home</a> |
+  <a href="/Portfolio/projects.html">🛠 Projects</a> |
+  <a href="/Portfolio/contact.html">📬 Contact</a>
 </div>
 
 # 🛠 Selected Projects
