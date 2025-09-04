@@ -2,7 +2,7 @@ title: Xinxuan Tang
 description: >
   Mechanical Engineering Portfolio  
   Preferred Name: Iris
-logo: /assets/img/logo_self.jpg
+logo: "{{ '/assets/img/logo_self.jpg' | relative_url }}"
 show_downloads: false
 github:
   is_user_page: false
