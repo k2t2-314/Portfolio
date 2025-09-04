@@ -1,11 +1,12 @@
-/* Custom font size for sidebar (left panel) */
-.sidebar {
-  font-size: 14px;
-  line-height: 1.5;
+/* Keep the sidebar title (your name) as default */
+.sidebar h1 {
+  font-size: inherit; /* or remove this line entirely to use default theme size */
+  font-weight: bold;
 }
 
-/* Optional: make description smaller */
+/* Make the description (below your name) larger */
 .sidebar p {
-  font-size: 13px;
-  color: #666666;
+  font-size: 16px;  /* ← increase this number as needed */
+  color: #444444;
+  line-height: 1.6;
 }
