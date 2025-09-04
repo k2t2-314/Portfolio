@@ -1,8 +1,10 @@
 ---
 layout: default
-title: Iris Tang – Contact
+title: Contact
+permalink: /contact.html
 ---
 
+<!-- Navigation -->
 <div style="margin-bottom: 30px;">
   <a href="/">🏠 Home</a> |
   <a href="/projects.html">🛠 Projects</a> |
