@@ -5,9 +5,9 @@ title: Home
 
 <!-- Navigation Bar -->
 <div style="margin-bottom: 30px;">
-  <a href="/Portfolio/">🏠 Home</a> |
-  <a href="/Portfolio/projects.html">🛠 Projects</a> |
-  <a href="/Portfolio/contact.html">📬 Contact</a>
+  <a href="{{ '/' | relative_url }}">🏠 Home</a> |
+  <a href="{{ '/projects.html' | relative_url }}">🛠 Projects</a> |
+  <a href="{{ '/contact.html' | relative_url }}">📬 Contact</a>
 </div>
 
 # 👋 Hi, I'm Iris Tang
