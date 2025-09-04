@@ -1,0 +1,11 @@
+/* Custom font size for sidebar (left panel) */
+.sidebar {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Optional: make description smaller */
+.sidebar p {
+  font-size: 13px;
+  color: #666666;
+}
