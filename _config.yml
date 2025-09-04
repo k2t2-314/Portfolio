@@ -1,3 +1,14 @@
+title: Xinxuan Tang
+description: >
+  Mechanical Engineering Portfolio  
+  Preferred Name: Iris
+logo: /assets/img/logo_self.jpg
+show_downloads: false
+github:
+  is_user_page: false
+  is_project_page: false
+theme: jekyll-theme-minimal
+
 defaults:
   -
     scope:
@@ -5,11 +16,3 @@ defaults:
     values:
       styles: /assets/css/custom.css
 
-title: Xinxuan Tang
-description: Preferred Name: Iris
-logo: /assets/img/logo_self.jpg
-show_downloads: false
-github:
-  is_user_page: false
-  is_project_page: false
-theme: jekyll-theme-minimal
