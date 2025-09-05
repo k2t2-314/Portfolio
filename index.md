@@ -12,8 +12,18 @@ title: Home
 
 # 👋 Hi, I'm Iris Tang
 
-I’m a Mechanical Engineering master’s student at Carnegie Mellon University with a strong foundation in robotics, intelligent systems, and mechatronic design. I specialize in building full-stack engineering solutions — from CAD design and structural simulation to embedded control and AI integration.
+M.S. Mechanical Engineering student at Carnegie Mellon University (AI in Mechanical Engineering track), passionate about robotics, mechatronic systems, and intelligent control. I design **full-stack engineering solutions** bridging CAD/FEA with embedded control and AI-driven perception.
 
-This portfolio showcases selected projects that highlight my technical capabilities, research experience, and passion for solving real-world problems through innovative mechanical systems.
+> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](Under Processing)
 
-> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](https://www.linkedin.com/in/xinxuantang)
+## Education
+**Carnegie Mellon University (CMU)**
+<img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="80">
+M.S. in Mechanical Engineering – AI in Mechanical Engineering (Expected Dec 2026)  
+*Focus: Robotics · Control · Machine Learning for Engineers*  
+
+**Shanghai Jiao Tong University (SJTU)**
+<img src="{{ '/assets/img/sjtu.jpg' | relative_url }}" alt="SJTU Logo" width="80">
+B.S. in Mechanical Engineering (Jun 2024)
+*Focus: Intelligent Manufacturing · Robotics · Mechatronic Control Systems*
+*GPA 3.57*
