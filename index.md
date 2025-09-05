@@ -20,7 +20,7 @@ M.S. Mechanical Engineering student at Carnegie Mellon University (AI in Mechani
 <table>
   <tr>
     <td><strong>Carnegie Mellon University (CMU)</strong></td>
-    <td><img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="80"></td>
+    <td><img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="40"></td>
   </tr>
 </table>
 
@@ -32,7 +32,7 @@ M.S. in Mechanical Engineering – AI in Mechanical Engineering *(Expected Dec 2
 <table>
   <tr>
     <td><strong>Carnegie Mellon University (CMU)</strong></td>
-    <td><img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="80"></td>
+    <td><img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="40"></td>
   </tr>
 </table>
 
@@ -45,7 +45,7 @@ Exchange Program – School of Mechanical Engineering *(May 2025)*
 <table>
   <tr>
     <td><strong>Shanghai Jiao Tong University (SJTU)</strong></td>
-    <td><img src="{{ '/assets/img/sjtu.jpg' | relative_url }}" alt="SJTU Logo" width="80"></td>
+    <td><img src="{{ '/assets/img/sjtu.jpg' | relative_url }}" alt="SJTU Logo" width="40"></td>
   </tr>
 </table>
 
