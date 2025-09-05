@@ -17,13 +17,25 @@ M.S. Mechanical Engineering student at Carnegie Mellon University (AI in Mechani
 > For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](Under Processing)
 
 ## Education
-**Carnegie Mellon University (CMU)**
-<img src="/assets/img/cmu.jpg" alt="CMU Logo" width="80">
-M.S. in Mechanical Engineering – AI in Mechanical Engineering (Expected Dec 2026)  
+<table>
+  <tr>
+    <td><strong>Carnegie Mellon University (CMU)</strong></td>
+    <td><img src="/assets/img/cmu.jpg" alt="CMU Logo" width="80"></td>
+  </tr>
+</table>
+
+M.S. in Mechanical Engineering – AI in Mechanical Engineering *(Expected Dec 2026)*  
 *Focus: Robotics · Control · Machine Learning for Engineers*  
 
-**Shanghai Jiao Tong University (SJTU)**
-<img src="/assets/img/sjtu.jpg" alt="SJTU Logo" width="80">
-B.S. in Mechanical Engineering (Jun 2024)
-*Focus: Intelligent Manufacturing · Robotics · Mechatronic Control Systems*
+---
+
+<table>
+  <tr>
+    <td><strong>Shanghai Jiao Tong University (SJTU)</strong></td>
+    <td><img src="/assets/img/sjtu.jpg" alt="SJTU Logo" width="80"></td>
+  </tr>
+</table>
+
+B.S. in Mechanical Engineering *(Jun 2024)*  
+*Focus: Intelligent Manufacturing · Robotics · Mechatronic Control Systems*  
 *GPA 3.57*
