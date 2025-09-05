@@ -20,7 +20,7 @@ M.S. Mechanical Engineering student at Carnegie Mellon University (AI in Mechani
 <table>
   <tr>
     <td><strong>Carnegie Mellon University (CMU)</strong></td>
-    <td><img src="/assets/img/cmu.jpg" alt="CMU Logo" width="80"></td>
+    <td><img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="80"></td>
   </tr>
 </table>
 
@@ -31,11 +31,24 @@ M.S. in Mechanical Engineering – AI in Mechanical Engineering *(Expected Dec 2
 
 <table>
   <tr>
-    <td><strong>Shanghai Jiao Tong University (SJTU)</strong></td>
-    <td><img src="/assets/img/sjtu.jpg" alt="SJTU Logo" width="80"></td>
+    <td><strong>Carnegie Mellon University (CMU)</strong></td>
+    <td><img src="{{ '/assets/img/cmu.jpg' | relative_url }}" alt="CMU Logo" width="80"></td>
   </tr>
 </table>
 
-B.S. in Mechanical Engineering *(Jun 2024)*  
+Exchange Program – School of Mechanical Engineering *(May 2025)*  
+*Focus: Control Systems · Product Design · Human–Computer Interaction (HCI)*
+*GPA 3.83*
+
+---
+
+<table>
+  <tr>
+    <td><strong>Shanghai Jiao Tong University (SJTU)</strong></td>
+    <td><img src="{{ '/assets/img/sjtu.jpg' | relative_url }}" alt="SJTU Logo" width="80"></td>
+  </tr>
+</table>
+
+B.S. in Mechanical Engineering *(Jun 2025)*  
 *Focus: Intelligent Manufacturing · Robotics · Mechatronic Control Systems*  
 *GPA 3.57*
