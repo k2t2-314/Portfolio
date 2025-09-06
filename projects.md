@@ -12,50 +12,53 @@ permalink: /projects.html
 
 # 🛠 Projects
 
-## 🤝 Industry Collaboration / 企业合作 {#industry}
+## 🤝 Industry Collaboration
 
-### Flexible Lubricator Handling & Inspection Platform
-_A modular 5‑DOF gantry with a vision‑assisted flexible gripper for ≈200‑lb lubricators_
-
-**Overview.** Production‑oriented handling & inspection cell that lifts lubricators from crates, reorients them horizontal→vertical, and supports vision‑guided inspection.
-
-**Design & Controls.** Modular 5‑DOF gantry + flipping platform + flexible gripper. Structure sized/verified via CAD/FEA (SolidWorks/ANSYS). Controls use coupled/fuzzy PID for multi‑actuator coordination with safety interlocks.
-
-**Status & Impact.** 2:1 prototype validated mechanism & control strategy. Real‑time object detection integrated for inspection automation; reduces manual handling risk.
-
-**Department.** Mechanical Engineering (CMU) · Industry collaboration with Well Master Corporation
+### Flexible Lubricator Handling & Inspection Platform  
+**Department:** Mechanical Engineering (CMU) · Industry collaboration with Well Master Corporation  
+**Role:** Lead Mechanical Designer  
+_A modular 5‑DOF gantry lifts ~200‑lb lubricators, reorients them horizontally to vertically, and enables inspection via real-time object detection; validated by a 2:1 prototype using CAD/FEA and multi-actuator fuzzy PID._
 
 <details>
   <summary><strong>Expand for details</strong></summary>
 
-**Architecture (Condensed).** Mechanics: modular rails, reinforced carriage, compliant fingers. Actuation: synchronized multi‑axis; flip/settle profiles. Controls: coupled/fuzzy PID; interlocks; calibration. Perception: real‑time object detection; inspection checklist hooks.
+**Goal.**  
+Develop a production-ready system to automate the extraction, flipping, and inspection of lubricators stored in bulk shipping crates. The solution must be mechanically robust, operator-safe, and capable of integrating with an intelligent vision system to replace manual handling.
 
-**Notes / Metrics (examples).** FEA‑checked stiffness/deflection on critical members; repeatable flipping with drift suppression & tuned settle time; pass/fail logging pipeline.
+**Design & Methods.**  
+- **Mechanical system:**  
+  Designed a modular 5‑DOF cantilever gantry using aluminum profiles and custom brackets; verified critical joints and beams with ANSYS static analysis and modal simulation to ensure <1 mm deflection under load.  
+  The flipping mechanism uses a torque-matched motorized platform with lateral stabilizers to maintain balance during rotation.  
+  The flexible gripper combines compliant silicone pads with passive alignment geometry to accommodate shape variance in lubricators.
+
+- **Control architecture:**  
+  Implemented multi-actuator coordination using fuzzy PID (for Z-axis deceleration and gripper soft-landing) and coupled PID (for synchronized gantry motion). Safety interlocks prevent flipping when out-of-alignment or over-torque is detected.
+
+- **Perception system:**  
+  Integrated YOLOv11-based object detection to locate visual inspection regions (e.g. ports, labels, connector points) and to automatically trigger pass/fail decisions. Data is logged for traceability.
+
+**Results / Metrics.**  
+- Built and tested a 2:1 prototype demonstrating successful lifting and flipping with high repeatability.  
+- **Structure:** FEA confirmed maximum deflection < 0.7 mm under 100 N equivalent load; modal frequency > 25 Hz avoids vibration.  
+- **Control:** Flipping stability achieved with <3° overshoot and <2.5 s settle time.  
+- **Perception:** Real-time inference (25 FPS) with >92% detection accuracy on known components; integrated inspection pass/fail logic.  
+- **Throughput:** Task cycle time reduced by ~40% compared to manual workflow.  
+- Delivered CAD package, electrical/control schematic, and final report to Well Master Corp.
+
+<figure style="margin: 1.2rem 0;">
+  <img src="{{ '/assets/img/assembly.png' | relative_url }}"
+       alt="Full CAD assembly of gantry"
+       style="max-width: 100%; border-radius: 12px;">
+  <figcaption><strong>
+  Figure 1.</strong> Full CAD model of the 5‑DOF gantry and flipping mechanism.</figcaption>
+</figure>
 
 </details>
 
 ---
 
-## 🔬 Research / 科研 {#research}
+## 🔬 Research
 
-### Magnetic Whiteboard Cleaning Robot (WIPER)
-_Differential‑drive robot with TVLQR vs MPC trajectory tracking, AprilTag localization, and EKF fusion_
-
-**Overview.** Research platform for comparing TVLQR vs MPC tracking with real‑world localization and sensor fusion.
-
-**Design & Controls.** RK4 integration; EKF (IMU/encoders) + AprilTag; velocity‑reference adaptation and heading‑drift mitigation.
-
-**Status & Impact.** Demonstrated robust tracking on varying paths; ablation between controllers informs controller selection and tuning.
-
-**Department.** Mechanical Engineering (CMU)
-
-<details>
-  <summary><strong>Expand for details</strong></summary>
-
-**Highlights.** Controller comparison framework; log‑based evaluation; reusable tooling for future platforms.
-
-</details>
----
 ### Hand Exoskeleton – Finger Actuation Module
 _Wearable finger actuators with compact design and user testing_
 
@@ -75,44 +78,7 @@ _Wearable finger actuators with compact design and user testing_
 </details>
 
 ---
-### Design of Collaborative Robotic Arms
-_High payload‑to‑weight ratio; internal wiring; reducer selection & simulation_
 
-**Overview.** Concept‑to‑simulation study for a collaborative arm focusing on internal wiring and reducer/motor selection.
-
-**Design & Controls.** Reference JAKA Zu5 form factor; reducer selection (RV‑N / Harmonic CSD) via static torque; Simscape model for kinematics/dynamics.
-
-**Status & Impact.** Validated trajectories in simulation; groundwork for advanced tasks (e.g., ball‑juggling path planning).
-
-**Department.** Mechanical Engineering (SJTU)
-
-<details>
-  <summary><strong>Expand for details</strong></summary>
-
-**Highlights.** Hollow links for wire routing & weight reduction; torque/mass trade‑offs; modular joint stack.
-
-</details>
-
----
-### Self‑Leveling Tripod (Patent Applied)
-_Arduino + IMU + 3 servos; FEA‑validated structure_
-
-**Overview.** Accessibility‑oriented tripod that auto‑levels to reduce user strain.
-
-**Design & Controls.** IMU senses tilt → Arduino computes corrections → 3 servos actuate legs; structure optimized with FEA.
-
-**Status & Impact.** Prototype achieves reliable self‑leveling on startup; roadmap includes closed‑loop tuning & robustness tests.
-
-**Department.** Mechanical Engineering (SJTU)
-
-<details>
-  <summary><strong>Expand for details</strong></summary>
-
-**Highlights.** Open‑loop with IMU feedback; smooth boot sequence; lightweight chassis.
-
-</details>
-
----
 ### Bionic Mandibular Robot (Undergraduate)
 _Anthropomorphic robotic jaw with actuation & control experiments_
 
@@ -152,42 +118,74 @@ _Modular inflatable structure with embedded control; wave‑tank validated_
 
 ---
 
-## 📚 Coursework / 课设 {#coursework}
+## 📚 Coursework
 
-### Model‑Based Control System for Magnetic Whiteboard Cleaning Robot
-_Course project focusing on TVLQR & MPC control with sensor fusion_
+### Design of Collaborative Robotic Arms
+_High payload‑to‑weight ratio; internal wiring; reducer selection & simulation_
 
-**Overview.** Course adaptation of the WIPER platform for model‑based control benchmarking.
+**Overview.** Concept‑to‑simulation study for a collaborative arm focusing on internal wiring and reducer/motor selection.
 
-**Design & Controls.** TVLQR/MPC comparison; AprilTag‑based localization; EKF fusion of IMU/encoders.
+**Design & Controls.** Reference JAKA Zu5 form factor; reducer selection (RV‑N / Harmonic CSD) via static torque; Simscape model for kinematics/dynamics.
 
-**Status & Impact.** Produced reproducible controller baselines and evaluation scripts.
+**Status & Impact.** Validated trajectories in simulation; groundwork for advanced tasks (e.g., ball‑juggling path planning).
 
-**Department.** Mechanical Engineering (CMU) · Coursework
+**Department.** Mechanical Engineering (SJTU)
 
 <details>
   <summary><strong>Expand for details</strong></summary>
 
-**Highlights.** Data‑driven tuning; failure‑case analysis; standardized plots & metrics.
+**Highlights.** Hollow links for wire routing & weight reduction; torque/mass trade‑offs; modular joint stack.
 
 </details>
+
 ---
+### Self‑Leveling Tripod (Patent Applied)
+_Arduino + IMU + 3 servos; FEA‑validated structure_
 
-### Trajectory Optimization of Three Planar Quadrotors
-_Optimizing collision‑free trajectories with iLQR and DIRCOL methods_
+**Overview.** Accessibility‑oriented tripod that auto‑levels to reduce user strain.
 
-**Overview.** Coursework exploring multi‑agent trajectory optimization with separation constraints.
+**Design & Controls.** IMU senses tilt → Arduino computes corrections → 3 servos actuate legs; structure optimized with FEA.
 
-**Design & Controls.** iLQR for warm starts; DIRCOL for constraint satisfaction; reorientation and minimum‑separation enforcement.
+**Status & Impact.** Prototype achieves reliable self‑leveling on startup; roadmap includes closed‑loop tuning & robustness tests.
 
-**Status & Impact.** Generated dynamically feasible, collision‑free paths under task constraints.
-
-**Department.** Mechanical Engineering (CMU) · Coursework
+**Department.** Mechanical Engineering (SJTU)
 
 <details>
   <summary><strong>Expand for details</strong></summary>
 
-**Highlights.** RK4 vs Hermite‑Simpson integration; cost shaping vs direct collision constraints; parameter sweeps.
+**Highlights.** Open‑loop with IMU feedback; smooth boot sequence; lightweight chassis.
+
+</details>
+
+---
+### Magnetic Whiteboard Cleaning Robot (WIPER) — Model-Based Control & Trajectory Optimization
+_Differential-drive platform with TVLQR/MPC tracking, AprilTag localization, EKF sensor fusion; includes a coursework module and a multi-agent trajectory-optimization extension_
+
+**Overview.** Unified research & coursework project built around WIPER for model-based control benchmarking and planning. Compares TVLQR vs MPC under real-world localization, and extends to multi-agent planar quadrotor trajectory optimization to prototype planner–controller ideas.
+
+**Design & Controls.** RK4 integration; EKF (IMU/encoders) + AprilTag localization; velocity-reference adaptation and heading-drift mitigation; controller ablation (TVLQR vs MPC). Trajectory-optimization extension uses iLQR for warm starts and DIRCOL for constraint satisfaction (reorientation + separation).
+
+**Status & Impact.** Demonstrated robust tracking on varied paths with reusable logging/evaluation tools. Coursework produced reproducible controller baselines. The multi-agent trajopt module generates dynamically feasible, collision-free paths that inform planner–controller stack design.
+
+**Department.** Mechanical Engineering (CMU) · Coursework
+
+<details>
+  <summary><strong>Expand for module details</strong></summary>
+
+#### Capstone module (WIPER baseline)
+- **Goal.** Empirically compare TVLQR vs MPC with real-world sensing.
+- **Methods.** RK4 dynamics; EKF (IMU/encoders) + AprilTag; log-based evaluation.
+- **Highlights.** Controller comparison framework; reusable tooling for future platforms.
+
+#### Coursework module (Model-Based Control System)
+- **Goal.** Turn the research setup into reproducible classroom baselines.
+- **Methods.** Standardized datasets/plots; failure-case analysis; data-driven tuning.
+- **Highlights.** Clean scripts for repeatable benchmarks and reports.
+
+#### Trajectory optimization module (Three planar quadrotors)
+- **Goal.** Prototype planner ideas for multi-agent coordination.
+- **Methods.** iLQR warm starts; DIRCOL with reorientation & min-separation constraints.
+- **Highlights.** RK4 vs Hermite-Simpson integration; cost shaping vs direct constraints; parameter sweeps.
 
 </details>
 ---
