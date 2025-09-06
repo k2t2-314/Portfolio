@@ -15,11 +15,11 @@ permalink: /projects.html
 ## 🤝 Industry Collaboration
 
 ### Flexible Lubricator Handling & Inspection Platform  
-**Department:** Mechanical Engineering (CMU) · Industry collaboration with Well Master Corporation  
+**Department:** Mechanical Engineering (SJTU) · Industry collaboration with Well Master Corporation  
 **Role:** Lead Mechanical Designer  
 _A modular 5‑DOF gantry lifts ~200‑lb lubricators, reorients them horizontally to vertically, and enables inspection via real-time object detection; validated by a 2:1 prototype using CAD/FEA and multi-actuator fuzzy PID._
 
-<details>
+<details markdown="1">
   <summary><strong>Expand for details</strong></summary>
 
 **Goal.**  
