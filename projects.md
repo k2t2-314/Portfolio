@@ -49,8 +49,9 @@ Develop a production-ready system to automate the extraction, flipping, and insp
   <img src="{{ '/assets/img/assembly.png' | relative_url }}"
        alt="Full CAD assembly of gantry"
        style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>
+  <figcaption><strong>Full CAD assembly of 5‑DOF gantry system</strong></figcaption>
 </figure>
+
 
 </details>
 
@@ -77,10 +78,11 @@ Develop a wearable, comfortable, and testable actuation module for single-finger
 - 
 <figure style="margin: 1.2rem 0;">
   <img src="{{ '/assets/img/Exo.png' | relative_url }}"
-       alt="Full CAD assembly of gantry"
+       alt="Wearable finger actuator module"
        style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>
+  <figcaption><strong>Wearable finger actuator CAD layout</strong></figcaption>
 </figure>
+
 
 **Results / Metrics.**  
 - Functional finger flex/extend motion over ~60° ROM with <5 mm lateral shift from neutral position.  
@@ -92,30 +94,11 @@ Develop a wearable, comfortable, and testable actuation module for single-finger
 
 <figure style="margin: 1.2rem 0;">
   <img src="{{ '/assets/img/outcomeExo.png' | relative_url }}"
-       alt="Full CAD assembly of gantry"
+       alt="Functional test outcome photo"
        style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>
+  <figcaption><strong>Functional prototype validation & outcome test</strong></figcaption>
 </figure>
 
-</details>
-
----
-
-### Bionic Mandibular Robot (Undergraduate)
-_Anthropomorphic robotic jaw with actuation & control experiments_
-
-**Overview.** Biomimetic mechanism studying jaw motion and actuation strategies.
-
-**Design & Controls.** Mechanism synthesis; embedded control and initial feedback strategies; safety and repeatability checks.
-
-**Status & Impact.** Early validation of kinematics & actuation; basis for future bio‑robotic studies.
-
-**Department.** Mechanical Engineering (SJTU)
-
-<details>
-  <summary><strong>Expand for details</strong></summary>
-
-**Highlights.** Anthropomorphic linkage; compliance tuning; measurement fixtures.
 
 </details>
 
@@ -135,6 +118,25 @@ _Modular inflatable structure with embedded control; wave‑tank validated_
   <summary><strong>Expand for details</strong></summary>
 
 **Highlights.** Deployment dynamics; seal/inflation integrity; control routines for safe actuation.
+
+</details>
+
+---
+### Bionic Mandibular Robot (Undergraduate)
+_Anthropomorphic robotic jaw with actuation & control experiments_
+
+**Overview.** Biomimetic mechanism studying jaw motion and actuation strategies.
+
+**Design & Controls.** Mechanism synthesis; embedded control and initial feedback strategies; safety and repeatability checks.
+
+**Status & Impact.** Early validation of kinematics & actuation; basis for future bio‑robotic studies.
+
+**Department.** Mechanical Engineering (SJTU)
+
+<details>
+  <summary><strong>Expand for details</strong></summary>
+
+**Highlights.** Anthropomorphic linkage; compliance tuning; measurement fixtures.
 
 </details>
 
