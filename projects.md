@@ -14,7 +14,7 @@ permalink: /projects.html
 
 ## 🤝 Industry Collaboration
 
-### Flexible Lubricator Handling & Inspection Platform  
+### I. Flexible Lubricator Handling & Inspection Platform  
 **Department:** Mechanical Engineering (SJTU) · Industry collaboration with Well Master Corporation  
 **Role:** Lead Mechanical Designer  
 _A modular 5‑DOF gantry lifts ~200‑lb lubricators, reorients them horizontally to vertically, and enables inspection via real-time object detection; validated by a 2:1 prototype using CAD/FEA and multi-actuator fuzzy PID._
@@ -50,7 +50,6 @@ Develop a production-ready system to automate the extraction, flipping, and insp
        alt="Full CAD assembly of gantry"
        style="max-width: 100%; border-radius: 12px;">
   <figcaption><strong>
-  Figure 1.</strong> Full CAD model of the 5‑DOF gantry and flipping mechanism.</figcaption>
 </figure>
 
 </details>
@@ -59,21 +58,44 @@ Develop a production-ready system to automate the extraction, flipping, and insp
 
 ## 🔬 Research
 
-### Hand Exoskeleton – Finger Actuation Module
-_Wearable finger actuators with compact design and user testing_
+### II. Hand Exoskeleton – Finger Actuation Module  
+**Department:** Mechanical Engineering (CMU)  
+**Role:** Researcher – Exoskeleton Lab, Neuroscience Institute  
+_A low-profile, user-conforming actuator system for finger flexion/extension, integrating ergonomic routing and embedded control; validated through user testing and mechanical refinement._
 
-**Overview.** Design of compact, wearable finger actuation with comfort‑driven iterations and human‑in‑the‑loop feedback.
-
-**Design & Controls.** CAD/mechanism packaging; embedded control; explored EMG‑driven concepts and safe force transmission.
-
-**Status & Impact.** Functional prototype validated fit & repeatability; informed future multi‑finger integration.
-
-**Department.** Mechanical Engineering (CMU)
-
-<details>
+<details markdown="1">
   <summary><strong>Expand for details</strong></summary>
 
-**Highlights.** Low‑profile routing; quick‑release features; safety stops.
+**Goal.**  
+Develop a wearable, comfortable, and testable actuation module for single-finger motion assistance. The design must minimize bulk, ensure safe force transmission, and enable future EMG-based control.
+
+**Design & Methods.**  
+- **Mechanical design:** Iterative CAD packaging for finger linkage, actuation cable routing, and palm-mounted motor housing. Focused on low-profile layout and mechanical safety (e.g. finger stops, soft returns).  
+- **Actuation system:** Embedded control using Arduino-compatible microcontroller, motor driver, and feedback loop. Used mini DC gearmotor with Bowden-cable routing for tendon mimicry.  
+- **EMG integration (exploratory):** Bench-tested surface EMG preprocessing and activation thresholds using MyoWare sensors to explore user-intent-based triggering logic.  
+- **Ergonomics:** Conducted comfort trials with 4 participants; quick-release Velcro glove mount for easy donning/doffing; adjustable tension and actuation limits.
+- 
+<figure style="margin: 1.2rem 0;">
+  <img src="{{ '/assets/img/Exo.png' | relative_url }}"
+       alt="Full CAD assembly of gantry"
+       style="max-width: 100%; border-radius: 12px;">
+  <figcaption><strong>
+</figure>
+
+**Results / Metrics.**  
+- Functional finger flex/extend motion over ~60° ROM with <5 mm lateral shift from neutral position.  
+- Actuation latency ~180 ms from command trigger; peak torque transmission up to 0.18 Nm.  
+- Passive return achieved via spring-guided neutral restoration; user safety enhanced with mechanical stops.  
+- Feedback from user tests guided improvements to comfort, strap interface, and routing constraints.  
+- Final design informs upcoming multi-finger exoskeleton framework.  
+- **A machine-learning-based decoder for EMG intent detection is currently under development** to support multi-modal, user-adaptive control strategies.
+
+<figure style="margin: 1.2rem 0;">
+  <img src="{{ '/assets/img/outcomeExo.png' | relative_url }}"
+       alt="Full CAD assembly of gantry"
+       style="max-width: 100%; border-radius: 12px;">
+  <figcaption><strong>
+</figure>
 
 </details>
 
