@@ -12,10 +12,6 @@ permalink: /projects.html
 
 # 🛠 Projects
 
-*Grouped into three buckets: **Industry Collaboration | Research | Coursework***
-
----
-
 ## 🤝 Industry Collaboration / 企业合作 {#industry}
 
 ### Flexible Lubricator Handling & Inspection Platform
@@ -59,7 +55,7 @@ _Differential‑drive robot with TVLQR vs MPC trajectory tracking, AprilTag loca
 **Highlights.** Controller comparison framework; log‑based evaluation; reusable tooling for future platforms.
 
 </details>
-
+---
 ### Hand Exoskeleton – Finger Actuation Module
 _Wearable finger actuators with compact design and user testing_
 
@@ -78,6 +74,7 @@ _Wearable finger actuators with compact design and user testing_
 
 </details>
 
+---
 ### Design of Collaborative Robotic Arms
 _High payload‑to‑weight ratio; internal wiring; reducer selection & simulation_
 
@@ -96,6 +93,7 @@ _High payload‑to‑weight ratio; internal wiring; reducer selection & simulati
 
 </details>
 
+---
 ### Self‑Leveling Tripod (Patent Applied)
 _Arduino + IMU + 3 servos; FEA‑validated structure_
 
@@ -114,6 +112,7 @@ _Arduino + IMU + 3 servos; FEA‑validated structure_
 
 </details>
 
+---
 ### Bionic Mandibular Robot (Undergraduate)
 _Anthropomorphic robotic jaw with actuation & control experiments_
 
@@ -132,6 +131,7 @@ _Anthropomorphic robotic jaw with actuation & control experiments_
 
 </details>
 
+---
 ### Self‑Deployable Offshore Wave‑Damping Curtain System
 _Modular inflatable structure with embedded control; wave‑tank validated_
 
@@ -171,6 +171,7 @@ _Course project focusing on TVLQR & MPC control with sensor fusion_
 **Highlights.** Data‑driven tuning; failure‑case analysis; standardized plots & metrics.
 
 </details>
+---
 
 ### Trajectory Optimization of Three Planar Quadrotors
 _Optimizing collision‑free trajectories with iLQR and DIRCOL methods_
@@ -189,6 +190,7 @@ _Optimizing collision‑free trajectories with iLQR and DIRCOL methods_
 **Highlights.** RK4 vs Hermite‑Simpson integration; cost shaping vs direct collision constraints; parameter sweeps.
 
 </details>
+---
 
 ### Recipe Recommender System
 _Python‑based recommender with logistic‑preference modeling & multi‑objective scoring_
@@ -207,6 +209,7 @@ _Python‑based recommender with logistic‑preference modeling & multi‑object
 **Highlights.** Cold‑start defaults; deterministic UI state; fast filtering pipeline.
 
 </details>
+---
 
 ### Light‑Tracking Turret (Photoresistor‑based)
 _Four photoresistors + dual‑axis servos; Arduino Uno signal chain_
@@ -225,6 +228,7 @@ _Four photoresistors + dual‑axis servos; Arduino Uno signal chain_
 **Highlights.** Sensor‑to‑actuator mapping; noise handling; calibration routine.
 
 </details>
+---
 
 ### Automatic Seed Planting & Pot‑Forming Device
 _Integrated pot forming + single‑seed metering with spring‑aided wheel_
@@ -243,6 +247,7 @@ _Integrated pot forming + single‑seed metering with spring‑aided wheel_
 **Highlights.** Single‑wheel rope drive; spring rebound timing; keeper geometry.
 
 </details>
+---
 
 ### Simulated Jumping Bionic Frog
 _Incomplete‑gear spring drive; ~20 cm horizontal jump_
@@ -262,6 +267,7 @@ _Incomplete‑gear spring drive; ~20 cm horizontal jump_
 
 </details>
 
+---
 ### A 2D Shooting Game (CMU_graphics)
 _Multi‑file Python app; gameplay & UI/UX polish_
 
