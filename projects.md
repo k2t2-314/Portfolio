@@ -103,40 +103,29 @@ Develop a wearable, comfortable, and testable actuation module for single-finger
 </details>
 
 ---
-### Self‑Deployable Offshore Wave‑Damping Curtain System
-_Modular inflatable structure with embedded control; wave‑tank validated_
+### III. Self‑Deployable Offshore Wave‑Damping Curtain System  
+**Department:** Mechanical Engineering (SJTU)  
+**Role:** Researcher – PRP Offshore Structures Group  
+_A modular, inflatable curtain system designed to autonomously deploy at sea and attenuate wave energy; validated through wave-tank testing and embedded control._
 
-**Overview.** Research assistant project developing a deployable curtain to damp waves for offshore use.
-
-**Design & Controls.** Curtain deployment mechanism; embedded control (Raspberry Pi); test procedures for hydrodynamic performance.
-
-**Status & Impact.** Wave‑tank experiments validate concept feasibility and deployment reliability.
-
-**Department.** Mechanical Engineering (SJTU)
-
-<details>
+<details markdown="1">
   <summary><strong>Expand for details</strong></summary>
 
-**Highlights.** Deployment dynamics; seal/inflation integrity; control routines for safe actuation.
+**Goal.**  
+Develop a robust, self-deploying inflatable curtain for offshore wave damping. The system must function autonomously, withstand hydrodynamic loads, and demonstrate reliable sealing and actuation.
 
-</details>
+**Design & Methods.**  
+- **Mechanical structure:** Modular curtain cells fabricated from flexible, waterproof fabric with internal air channels. Designed custom inflation ports with redundant sealing rings to withstand repeated cycles and pressure spikes.  
+- **Deployment system:** Motorized retraction + inflation sequence using pressurized air canisters; unrolls curtain with timed actuation. Compact stowage size and layered folding pattern ensured rapid and tangle-free deployment.  
+- **Embedded control:** Raspberry Pi 3B+ used for real-time control of valve opening, pump activation, and pressure monitoring. Safety interlocks prevent over-inflation; auto-deflation included for retrieval.  
+- **Testing setup:** Built scaled prototype for wave tank testing; tracked curtain dynamics under regular and irregular wave conditions using overhead camera system and pressure sensors.
 
----
-### Bionic Mandibular Robot (Undergraduate)
-_Anthropomorphic robotic jaw with actuation & control experiments_
-
-**Overview.** Biomimetic mechanism studying jaw motion and actuation strategies.
-
-**Design & Controls.** Mechanism synthesis; embedded control and initial feedback strategies; safety and repeatability checks.
-
-**Status & Impact.** Early validation of kinematics & actuation; basis for future bio‑robotic studies.
-
-**Department.** Mechanical Engineering (SJTU)
-
-<details>
-  <summary><strong>Expand for details</strong></summary>
-
-**Highlights.** Anthropomorphic linkage; compliance tuning; measurement fixtures.
+**Results / Metrics.**  
+- Achieved successful deployment in <8 s in all trials with full curtain inflation and locking in place.  
+- Maintained seal integrity for >20 minutes with no leakage under cyclic wave loading.  
+- Peak wave height reduction of ~25–30% in downstream measurement zones, validating energy dissipation.  
+- Embedded controller maintained internal pressure within ±3% of target range using closed-loop sensing.  
+- Control sequence and mechanical layout delivered as a reproducible reference system for offshore damping studies.
 
 </details>
 
