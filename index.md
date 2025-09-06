@@ -14,7 +14,7 @@ title: Home
 
 Building across mechanical design, robotics, and AI/ML — from multi-DOF structures and exoskeletons to modern control, real-time object detection, and full-stack prototyping.
 
-> For more, check out my [GitHub](https://github.com/k2t2-314) or LinkedIn (Under Processing)
+> For more, check out my [GitHub](https://github.com/k2t2-314) or [LinkedIn](www.linkedin.com/in/xinxuant)
 
 ## What I do
 - **Mechanical & Robotics**: CAD & simulation (SolidWorks, ANSYS, Simulink), mechanism design, FEA/DFM, GD&T, prototyping.  
