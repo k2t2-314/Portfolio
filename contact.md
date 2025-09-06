@@ -15,6 +15,7 @@ permalink: /contact.html
 
 - **Email:** xinxuant@andrew.cmu.edu
 - **Alternate:** 2516879270@qq.com
+- **Linkedin:** [Xinxuan Tang](www.linkedin.com/in/xinxuant)
 - **GitHub:** [k2t2-314](https://github.com/k2t2-314)  
 - **Current Location:** Pittsburgh, PA  
 - **Seeking:** Summer 2025 Internship
