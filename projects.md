@@ -12,9 +12,11 @@ permalink: /projects.html
 
 # Projects
 ## Flexible Lubricator Handling & Inspection Platform
-**Industry Collaboration: Well Master Corporation & SJTU** `Computer Vision` `Robotics Control` `Mechanical Design` `CAE/FEA` `Solidworks`
-**Role:** Lead Mechanical Designer  
+**Industry Collaboration: Well Master Corporation & SJTU**   
+`Computer Vision` `Robotics Control` `Mechanical Design` `CAE/FEA` `Solidworks`  
+**Role:** Lead Mechanical Designer    
 **Summary:** Developed a production-ready, 5-DOF gantry system that automates the extraction, reorientation, and visual inspection of 200-lb industrial lubricators, increasing throughput by 40%.
+
 <details>
 <summary><b>View Project Details</b></summary>
   
