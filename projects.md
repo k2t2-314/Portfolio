@@ -168,6 +168,28 @@ permalink: /projects.html
 
 1\. Designed a hybrid TVLQR/MPC tracking framework optimized for the WIPER platform. To overcome the high latency and low bandwidth of the Bluetooth-Arduino communication link, I leveraged iLQR (Iterative LQR) for rapid trajectory generation and warm-starting. This ensured the PC-based terminal could compute optimal control inputs at high frequency, mitigating potential path instability caused by wireless transmission delays and the limited computational power of the embedded microcontroller.
 
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/3-1.png' | relative_url }}" 
+         alt="2D Trajectory Simulation" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>2D Simulation: iLQR Trajectory Optimization</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/3-2.png' | relative_url }}" 
+         alt="Real-world Robot Trajectory" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Experimental Validation: Real-world Tracking</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
 2\. Engineered an autonomous software stack integrating AprilTag vision localization with EKF-based sensor fusion (IMU and Encoders). The system effectively mitigates real-world sensing noise and non-systematic errors, maintaining a localization drift of <2.5 cm. This high-fidelity state estimation provides the necessary feedback for the model-based controller to execute adaptive tracking and collision avoidance in dynamic indoor environments.
 
 </details>
