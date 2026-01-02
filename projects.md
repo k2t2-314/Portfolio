@@ -28,6 +28,21 @@ permalink: /projects.html
        style="max-width: 100%; border-radius: 12px;">
   <figcaption><strong>Full CAD assembly of 5‑DOF gantry system</strong></figcaption>
 </figure>
+
+<div style="margin: 1.5rem 0;">
+  <img src="{{ '/assets/img/1-1.png' | relative_url }}" 
+       alt="Full CAD assembly of gantry" 
+       style="width: 100%; max-width: 800px; border-radius: 12px; display: block; margin-bottom: 0.5rem;">
+  
+  <p style="margin-top: 0.5rem; font-size: 0.95rem; color: #333;">
+    <strong>Figure 1: Full CAD Assembly of the 5-DOF Gantry System</strong>
+  </p>
+  
+  <blockquote style="margin-top: 0.5rem; font-size: 0.85rem; color: #666; border-left: 3px solid #ccc; padding-left: 1rem;">
+    This detailed SolidWorks rendering showcases the final design of the automated lubricator handling gantry. The model highlights the modular aluminum profiles, custom-machined joints, and the torque-matched motor mounts integrated for synchronized 5-axis motion. This visualization was critical for early-stage design validation and industrial client presentation.
+  </blockquote>
+</div>
+
   
 2. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with <3° overshoot and a settling time of <2.5 s.
 
