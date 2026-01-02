@@ -22,12 +22,26 @@ permalink: /projects.html
   
 1\. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
 
-<figure style="margin: 1.2rem 0;">
-  <img src="{{ '/assets/img/1-1.png' | relative_url }}"
-       alt="Full CAD assembly of gantry"
-       style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>Full CAD assembly of 5‑DOF gantry system</strong></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin: 1.2rem 0;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/1-1.png' | relative_url }}" 
+         alt="Full CAD assembly" 
+         style="width: 100%; border-radius: 12px;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Full CAD assembly of 5‑DOF gantry</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/1-2.png' | relative_url }}" 
+         alt="parameter optimization in ANSYS" 
+         style="width: 100%; border-radius: 12px;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Parameter optimization in ANSYS</strong>
+    </figcaption>
+  </figure>
+</div>
+
 
 
   
