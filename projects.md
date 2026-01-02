@@ -37,51 +37,6 @@ permalink: /projects.html
 ---
 
 
-## 🤝 Industry Collaboration
-
-### I. Flexible Lubricator Handling & Inspection Platform  
-**Department:** Mechanical Engineering (SJTU) · Industry collaboration with Well Master Corporation  
-**Role:** Lead Mechanical Designer  
-_A modular 5‑DOF gantry lifts ~200‑lb lubricators, reorients them horizontally to vertically, and enables inspection via real-time object detection; validated by a 2:1 prototype using CAD/FEA and multi-actuator fuzzy PID._
-
-<details markdown="1">
-  <summary><strong>Expand for details</strong></summary>
-
-**Goal.**  
-Develop a production-ready system to automate the extraction, flipping, and inspection of lubricators stored in bulk shipping crates. The solution must be mechanically robust, operator-safe, and capable of integrating with an intelligent vision system to replace manual handling.
-
-**Design & Methods.**  
-- **Mechanical system:**  
-  Designed a modular 5‑DOF cantilever gantry using aluminum profiles and custom brackets; verified critical joints and beams with ANSYS static analysis and modal simulation to ensure <1 mm deflection under load.  
-  The flipping mechanism uses a torque-matched motorized platform with lateral stabilizers to maintain balance during rotation.  
-  The flexible gripper combines compliant silicone pads with passive alignment geometry to accommodate shape variance in lubricators.
-
-- **Control architecture:**  
-  Implemented multi-actuator coordination using fuzzy PID (for Z-axis deceleration and gripper soft-landing) and coupled PID (for synchronized gantry motion). Safety interlocks prevent flipping when out-of-alignment or over-torque is detected.
-
-- **Perception system:**  
-  Integrated YOLOv11-based object detection to locate visual inspection regions (e.g. ports, labels, connector points) and to automatically trigger pass/fail decisions. Data is logged for traceability.
-
-**Results / Metrics.**  
-- Built and tested a 2:1 prototype demonstrating successful lifting and flipping with high repeatability.  
-- **Structure:** FEA confirmed maximum deflection < 0.7 mm under 100 N equivalent load; modal frequency > 25 Hz avoids vibration.  
-- **Control:** Flipping stability achieved with <3° overshoot and <2.5 s settle time.  
-- **Perception:** Real-time inference (25 FPS) with >92% detection accuracy on known components; integrated inspection pass/fail logic.  
-- **Throughput:** Task cycle time reduced by ~40% compared to manual workflow.  
-- Delivered CAD package, electrical/control schematic, and final report to Well Master Corp.
-
-<figure style="margin: 1.2rem 0;">
-  <img src="{{ '/assets/img/assembly.png' | relative_url }}"
-       alt="Full CAD assembly of gantry"
-       style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>Full CAD assembly of 5‑DOF gantry system</strong></figcaption>
-</figure>
-
-
-</details>
-
----
-
 ## 🔬 Research
 
 ### II. Hand Exoskeleton – Finger Actuation Module  
