@@ -160,6 +160,11 @@ permalink: /projects.html
 
 ## Model-Based Control System for Magnetic Whiteboard Cleaning Robot 
 **Course Project: Carnegie Mellon University (CMU)**  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Model Predictive Control (MPC)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Optimization (iLQR)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">State Estimation (EKF)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mobile Robotics</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Arduino/Embedded Control</span>  
 **Role:** Robotics and Control Systems Designer
 **Summary:** Developed a differential-drive robot (WIPER) benchmarking platform to validate hybrid TVLQR/MPC tracking frameworks. Engineered a robust state estimation stack and explored multi-agent trajectory optimization using iLQR and Direct Collocation.
 
@@ -197,29 +202,24 @@ permalink: /projects.html
 
 ---
 
-### III. Self‑Deployable Offshore Wave‑Damping Curtain System  
-**Department:** Mechanical Engineering (SJTU)  
-**Role:** Researcher – PRP Offshore Structures Group  
-_A modular, inflatable curtain system designed to autonomously deploy at sea and attenuate wave energy; validated through wave-tank testing and embedded control._
+## Self-Deployable Offshore Wave-Damping Curtain System
+**Research Project: SJTU PRP Offshore Structures Group**  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Marine Engineering</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Fluid-Structure Interaction (FSI)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Material Science</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">CFD Simulation</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Wave-Tank Testing</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>  
+**Role:** Mechatronics Researcher and Tester
+**Summary:** eveloped an autonomous, modular inflatable curtain system for offshore wave attenuation. Engineered a composite material structure and a remote deployment framework to ensure operational safety and structural integrity in harsh marine environments.
 
 <details markdown="1">
-  <summary><strong>Expand for details</strong></summary>
+  <summary><strong>View Project Details</strong></summary>
 
-**Goal.**  
-Develop a robust, self-deploying inflatable curtain for offshore wave damping. The system must function autonomously, withstand hydrodynamic loads, and demonstrate reliable sealing and actuation.
+1\. Engineered modular curtain cells using high-strength silicone rubber encapsulated by an interconnected PVC armor-plate interface. This hybrid design provides structural rigidity, protects the internal bladders from sharp marine debris, and mitigates thermal expansion under high-temperature exposure. Achieved a rapid, tangle-free deployment sequence (<8 s) through a motorized retraction system and layered folding patterns, validated to withstand cyclic hydrodynamic loads without leakage.
 
-**Design & Methods.**  
-- **Mechanical structure:** Modular curtain cells fabricated from flexible, waterproof fabric with internal air channels. Designed custom inflation ports with redundant sealing rings to withstand repeated cycles and pressure spikes.  
-- **Deployment system:** Motorized retraction + inflation sequence using pressurized air canisters; unrolls curtain with timed actuation. Compact stowage size and layered folding pattern ensured rapid and tangle-free deployment.  
-- **Embedded control:** Raspberry Pi 3B+ used for real-time control of valve opening, pump activation, and pressure monitoring. Safety interlocks prevent over-inflation; auto-deflation included for retrieval.  
-- **Testing setup:** Built scaled prototype for wave tank testing; tracked curtain dynamics under regular and irregular wave conditions using overhead camera system and pressure sensors.
+2\. Developed a Raspberry Pi-based control system featuring an Infrared (IR) remote interface to enable stand-off operations from a catamaran platform, mitigating high-risk close-range manual tasks. Implemented a closed-loop pressure monitoring logic that maintains internal stability within ±3%, incorporating safety interlocks for auto-deflation and over-inflation prevention. Wave tank results demonstrated a 25–30% peak wave height reduction, confirming the system's energy dissipation efficiency.
 
-**Results / Metrics.**  
-- Achieved successful deployment in <8 s in all trials with full curtain inflation and locking in place.  
-- Maintained seal integrity for >20 minutes with no leakage under cyclic wave loading.  
-- Peak wave height reduction of ~25–30% in downstream measurement zones, validating energy dissipation.  
-- Embedded controller maintained internal pressure within ±3% of target range using closed-loop sensing.  
-- Control sequence and mechanical layout delivered as a reproducible reference system for offshore damping studies.
 
 </details>
 
