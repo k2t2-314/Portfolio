@@ -16,9 +16,32 @@ Building across mechanical design, robotics, and AI/ML — from multi-DOF struct
 
 
 ## What I do
-- **Mechanical & Robotics**: CAD & simulation (SolidWorks, ANSYS, Simulink), mechanism design, FEA/DFM, GD&T, prototyping.  
-- **Programming & Intelligent Systems**: Python/C++/Julia, PyTorch & ML/DL, computer vision, SLAM, model training, Linux/ROS.  
-- **Hardware & Controls**: Arduino & embedded systems, PCB/CNC/3D printing, real-time control (PID/MPC/TVLQR), sensor fusion (IMU/encoders). 
+### Artificial Intelligence & Software
+*Focus: Data processing, model training, and industrial deployment.*
+
+- **Frameworks:** PyTorch, TensorFlow, Keras, Scikit-learn
+- **Computer Vision:** OpenCV, YOLO (v8/v11), MediaPipe, Transfer Learning
+- **Machine Learning:** Deep Learning (CNN, RNN), Reinforcement Learning, LLMs, Pandas/NumPy
+- **Development:** Python, C/C++, SQL, Docker, Linux/Unix, Git, CUDA GPU Acceleration, GCP
+
+### Robotics & Autonomous Systems
+*Focus: Bridging algorithms with physical hardware and real-time execution.*
+
+- **Middleware:** ROS 1/2 (Communication: TCP/UDP/ICMP)
+- **Control Theory:** PID, LQR, MPC, TVLQR (Time-Varying LQR)
+- **System Integration:** Sensor Fusion, Real-time Control, Embedded Systems (Arduino, Raspberry Pi)
+- **Communication:** Serial, TCP/IP, API Integration
+
+### Engineering & CAE (Physical Intelligence)
+*Focus: Physical world modeling, structural validation, and hardware prototyping.*
+
+- **Design:** SolidWorks, AutoCAD, GD&T, DFM/DFA, Tolerance Analysis
+- **Simulation (CAE):** ANSYS (FEA/FEM), CFD, MSC Adams (Multi-body Dynamics), MATLAB/Simulink
+- **Prototyping:** 3D Printing, CNC (Lathes, Mills), PCB Design, Instrumentation & DAQ, LabVIEW
+
+### Languages
+- **English:** Professional Working Proficiency
+- **Mandarin:** Native
 
 
 ## Education
