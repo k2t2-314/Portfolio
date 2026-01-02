@@ -26,7 +26,7 @@ permalink: /projects.html
   <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/1-1.png' | relative_url }}" 
          alt="Full CAD assembly" 
-         style="width: 100%; border-radius: 12px;">
+         style="height: 250px; object-fit: cover; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
       <strong>Full CAD assembly of 5‑DOF gantry</strong>
     </figcaption>
@@ -35,7 +35,7 @@ permalink: /projects.html
   <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/1-2.png' | relative_url }}" 
          alt="parameter optimization in ANSYS" 
-         style="width: 100%; border-radius: 12px;">
+         style="height: 250px; object-fit: cover; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
       <strong>Parameter optimization in ANSYS</strong>
     </figcaption>
