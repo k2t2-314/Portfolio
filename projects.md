@@ -159,9 +159,9 @@ permalink: /projects.html
 ---
 
 ## Auto-Meshing App for FEA Optimization
-**Course Project: Carnegie Mellon University (CMU)**  
-**Role:** Backend & Feature Science Developer
-**Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.
+**Course Project: Carnegie Mellon University (CMU)**   
+**Role:** Backend & Feature Science Developer  
+**Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.  
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
