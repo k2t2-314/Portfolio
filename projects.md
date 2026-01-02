@@ -11,6 +11,8 @@ permalink: /projects.html
 </div>
 
 # Projects
+---
+
 ## Flexible Lubricator Handling & Inspection Platform
 **Industry Collaboration: Well Master Corporation & SJTU**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
@@ -48,14 +50,44 @@ permalink: /projects.html
 
 </div>
 
-
-
-  
 2\. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with <3° overshoot and a settling time of <2.5 s.
+
+<figure style="margin: 1.5rem auto; text-align: center; max-width: 85%;">
+  <img src="{{ '/assets/img/1-4.png' | relative_url }}" 
+       alt="Full CAD assembly" 
+       style="width: 100%; height: auto; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+  <figcaption style="margin-top: 0.8rem; font-size: 0.85rem; color: #555;">
+    <strong>Control System Architecture & Simulation via Simulink</strong>
+  </figcaption>
+</figure>
 
 3\. Engineered a real-time perception system by deploying a **YOLOv11 model**, utilizing a **Sim-to-Real data strategy** (3D synthetic models + real-world photography). Achieved **92% mAP** for multi-class industrial part detection and 25 FPS inference speed, enabling fully automated pass/fail inspection logic.
 
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1.2; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/1-6.png' | relative_url }}" 
+         alt="YOLOv11 Training Metrics" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>YOLOv11 Training Metrics & mAP Curve</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/1-7.png' | relative_url }}" 
+         alt="Real-time Inference and Localization" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Real-time Detection & Localization</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
 </details>
+
+
 ---
 
 
