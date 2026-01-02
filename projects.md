@@ -90,48 +90,43 @@ permalink: /projects.html
 
 ---
 
-
-## 🔬 Research
-
-### II. Hand Exoskeleton – Finger Actuation Module  
-**Department:** Mechanical Engineering (CMU)  
-**Role:** Researcher – Exoskeleton Lab, Neuroscience Institute  
-_A low-profile, user-conforming actuator system for finger flexion/extension, integrating ergonomic routing and embedded control; validated through user testing and mechanical refinement._
+## Actuation Module for Hand Exoskeleton   
+**Research Project: Carnegie Mellon University (CMU) | NeuroMechatronics Lab **
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Biosignal Processing</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Soft Robotics</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">3D Printing</span>
+**Role:** Graduate Research Assistant
+**Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.
 
 <details markdown="1">
-  <summary><strong>Expand for details</strong></summary>
+  <summary><strong>View Project Details</strong></summary>
 
-**Goal.**  
-Develop a wearable, comfortable, and testable actuation module for single-finger motion assistance. The design must minimize bulk, ensure safe force transmission, and enable future EMG-based control.
+1\. Performed iterative CAD packaging for the finger linkage, actuation cable routing, and a palm-mounted motor housing. Developed the embedded control core using an Arduino-compatible microcontroller and mini DC gearmotors to drive the mechanism.
 
-**Design & Methods.**  
-- **Mechanical design:** Iterative CAD packaging for finger linkage, actuation cable routing, and palm-mounted motor housing. Focused on low-profile layout and mechanical safety (e.g. finger stops, soft returns).  
-- **Actuation system:** Embedded control using Arduino-compatible microcontroller, motor driver, and feedback loop. Used mini DC gearmotor with Bowden-cable routing for tendon mimicry.  
-- **EMG integration (exploratory):** Bench-tested surface EMG preprocessing and activation thresholds using MyoWare sensors to explore user-intent-based triggering logic.  
-- **Ergonomics:** Conducted comfort trials with 4 participants; quick-release Velcro glove mount for easy donning/doffing; adjustable tension and actuation limits.
-- 
-<figure style="margin: 1.2rem 0;">
-  <img src="{{ '/assets/img/Exo.png' | relative_url }}"
-       alt="Wearable finger actuator module"
-       style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>Wearable finger actuator CAD layout</strong></figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1.2; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-1.png' | relative_url }}" 
+         alt="Finger Linkage CAD Design" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Iterative CAD Packaging of Finger Linkage</strong>
+    </figcaption>
+  </figure>
 
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-2.png' | relative_url }}" 
+         alt="Wearable Prototype on Hand" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Functional Prototype & Wearable Interface</strong>
+    </figcaption>
+  </figure>
 
-**Results / Metrics.**  
-- Functional finger flex/extend motion over ~60° ROM with <5 mm lateral shift from neutral position.  
-- Actuation latency ~180 ms from command trigger; peak torque transmission up to 0.18 Nm.  
-- Passive return achieved via spring-guided neutral restoration; user safety enhanced with mechanical stops.  
-- Feedback from user tests guided improvements to comfort, strap interface, and routing constraints.  
-- Final design informs upcoming multi-finger exoskeleton framework.  
-- **A machine-learning-based decoder for EMG intent detection is currently under development** to support multi-modal, user-adaptive control strategies.
+</div>
 
-<figure style="margin: 1.2rem 0;">
-  <img src="{{ '/assets/img/outcomeExo.png' | relative_url }}"
-       alt="Functional test outcome photo"
-       style="max-width: 100%; border-radius: 12px;">
-  <figcaption><strong>Functional prototype validation & outcome test</strong></figcaption>
-</figure>
 
 
 </details>
