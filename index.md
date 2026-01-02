@@ -29,8 +29,9 @@ Building across mechanical design, robotics, and AI/ML — from multi-DOF struct
   </tr>
 </table>
 
-M.S. in Mechanical Engineering – AI in Mechanical Engineering *(Expected Dec 2026)*  
-*Focus: Robotics · Control · Machine Learning for Engineers*  
+M.S. in Artificial Intelligence | School of Mechanical Engineering *(Expected Dec 2026)*  
+*Focus: Robot Design · Wearble Device· Machine Learning · Deep Learning · LLM · Cloud Deployment*
+*GPA 4.00*
 
 ---
 
@@ -41,8 +42,8 @@ M.S. in Mechanical Engineering – AI in Mechanical Engineering *(Expected Dec 2
   </tr>
 </table>
 
-Exchange Program – School of Mechanical Engineering *(May 2025)*  
-*Focus: Control Systems · Product Design · Human–Computer Interaction (HCI)*
+Exchange Program | School of Mechanical Engineering *(May 2025)*  
+*Focus: Mordern Control Systems · Product Design · Human–Computer Interaction (HCI) · CAE/FEA*
 *GPA 3.83*
 
 ---
@@ -55,5 +56,5 @@ Exchange Program – School of Mechanical Engineering *(May 2025)*
 </table>
 
 B.S. in Mechanical Engineering *(Jun 2025)*  
-*Focus: Intelligent Manufacturing · Robotics · Mechatronic Control Systems*  
+*Focus: Mordern Manufacturing Process· Robotics · ROS · Mechatronics*  
 *GPA 3.57*
