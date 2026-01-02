@@ -158,6 +158,22 @@ permalink: /projects.html
 
 ---
 
+## Auto-Meshing App for FEA Optimization
+**Course Project: Carnegie Mellon University (CMU)**  
+**Role:** Backend & Feature Science Developer
+**Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.
+
+<details markdown="1">
+  <summary><strong>View Project Details</strong></summary>
+
+1\. Developed an end-to-end FEA automation framework using PyAnsys to generate scalable datasets from STEP CAD models. I engineered a Python-based feature extraction module that translates complex geometric entities (holes, fillets, faces) into numerical descriptors. This allows the system to "understand" the mechanical significance of different part regions, forming the basis for intelligent mesh refinement.
+
+2\. Trained a Multilayer Perceptron (MLP) model to predict optimal mesh parameters by combining rule-based heuristics with learned geometric patterns. The model achieved 75% accuracy and 90% recall despite limited data. The entire backend was containerized via Docker and deployed as an open-source application on Hugging Face, providing a user-friendly interface for real-time mesh refinement suggestions.
+
+</details>
+
+---
+
 ## Model-Based Control System for Magnetic Whiteboard Cleaning Robot 
 **Course Project: Carnegie Mellon University (CMU)**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Model Predictive Control (MPC)</span>
