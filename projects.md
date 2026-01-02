@@ -10,7 +10,22 @@ permalink: /projects.html
   <a href="{{ '/contact.html' | relative_url }}">📬 Contact</a>
 </div>
 
-# 🛠 Projects
+# Projects
+## Flexible Lubricator Handling & Inspection Platform
+**Industry Collaboration: Well Master Corporation & SJTU** `Computer Vision` `Robotics Control` `Mechanical Design` `CAE/FEA` `Solidworks`
+**Role:** Lead Mechanical Designer  
+**Summary:** Developed a production-ready, 5-DOF gantry system that automates the extraction, reorientation, and visual inspection of 200-lb industrial lubricators, increasing throughput by 40%.
+<details>
+<summary><b>View Project Details</b></summary>
+  
+1. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
+  
+2. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with <3° overshoot and a settling time of <2.5 s.
+
+3. Engineered a real-time perception system by deploying a **YOLOv11 model**, utilizing a **Sim-to-Real data strategy** (3D synthetic models + real-world photography). Achieved **92% mAP** for multi-class industrial part detection and 25 FPS inference speed, enabling fully automated pass/fail inspection logic.
+
+</details>
+
 
 ## 🤝 Industry Collaboration
 
