@@ -107,7 +107,7 @@ permalink: /projects.html
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
-  <figure style="flex: 1.2; margin: 0; text-align: center;">
+  <figure style="flex: 2; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/2-1.png' | relative_url }}" 
          alt="Finger Linkage CAD Design" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
@@ -131,7 +131,7 @@ permalink: /projects.html
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
-  <figure style="flex: 1.2; margin: 0; text-align: center;">
+  <figure style="flex: 2; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
          alt="Finger Linkage CAD Design" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
@@ -151,6 +151,7 @@ permalink: /projects.html
 
 </div>
 
+3\. Engineered a high-dimensional time-series classification pipeline utilizing a 1D-CNN architecture to decode multi-channel sEMG signals into 7 predictive categories. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns and validating the rig's functionality through qualitative performance metrics.
 
 
 </details>
