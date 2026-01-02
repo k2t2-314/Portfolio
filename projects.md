@@ -199,7 +199,6 @@ permalink: /projects.html
 
 </details>
 
-
 ---
 
 ## Self-Deployable Offshore Wave-Damping Curtain System
@@ -218,7 +217,52 @@ permalink: /projects.html
 
 1\. Engineered modular curtain cells using high-strength silicone rubber encapsulated by an interconnected PVC armor-plate interface. This hybrid design provides structural rigidity, protects the internal bladders from sharp marine debris, and mitigates thermal expansion under high-temperature exposure. Achieved a rapid, tangle-free deployment sequence (<8 s) through a motorized retraction system and layered folding patterns, validated to withstand cyclic hydrodynamic loads without leakage.
 
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1.2; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/4-1.png' | relative_url }}" 
+         alt="Curtain System CAD Design" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>SolidWorks CAD: Modular Curtain & PVC Armor</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/4-2.png' | relative_url }}" 
+         alt="Prototype Real-shot" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Experimental Prototype: Wave-Tank Validation</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
+
 2\. Developed a Raspberry Pi-based control system featuring an Infrared (IR) remote interface to enable stand-off operations from a catamaran platform, mitigating high-risk close-range manual tasks. Implemented a closed-loop pressure monitoring logic that maintains internal stability within ±3%, incorporating safety interlocks for auto-deflation and over-inflation prevention. Wave tank results demonstrated a 25–30% peak wave height reduction, confirming the system's energy dissipation efficiency.
+
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/4-3.png' | relative_url }}" 
+         alt="Wave Height vs Distance Plot" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Wave Height vs. Distance: Regular Sea States</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/4-4.png' | relative_url }}" 
+         alt="Wave Energy Dissipation Results" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Wave Energy Dissipation: Irregular Sea States</strong>
+    </figcaption>
+  </figure>
+
+</div>
 
 
 </details>
