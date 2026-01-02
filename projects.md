@@ -20,7 +20,7 @@ permalink: /projects.html
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
   
-1. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
+1\. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
 
 <figure style="margin: 1.2rem 0;">
   <img src="{{ '/assets/img/1-1.png' | relative_url }}"
@@ -28,10 +28,12 @@ permalink: /projects.html
        style="max-width: 100%; border-radius: 12px;">
   <figcaption><strong>Full CAD assembly of 5‑DOF gantry system</strong></figcaption>
 </figure>
-  
-2. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with <3° overshoot and a settling time of <2.5 s.
 
-3. Engineered a real-time perception system by deploying a **YOLOv11 model**, utilizing a **Sim-to-Real data strategy** (3D synthetic models + real-world photography). Achieved **92% mAP** for multi-class industrial part detection and 25 FPS inference speed, enabling fully automated pass/fail inspection logic.
+
+  
+2\. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with <3° overshoot and a settling time of <2.5 s.
+
+3\. Engineered a real-time perception system by deploying a **YOLOv11 model**, utilizing a **Sim-to-Real data strategy** (3D synthetic models + real-world photography). Achieved **92% mAP** for multi-class industrial part detection and 25 FPS inference speed, enabling fully automated pass/fail inspection logic.
 
 </details>
 ---
