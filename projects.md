@@ -12,8 +12,12 @@ permalink: /projects.html
 
 # Projects
 ## Flexible Lubricator Handling & Inspection Platform
-**Industry Collaboration: Well Master Corporation & SJTU**   
-<code>Computer Vision</code> <code>Robotics Control</code> <code>Mechanical Design</code> <code>CAE/FEA</code> <code>SolidWorks</code>  
+**Industry Collaboration: Well Master Corporation & SJTU**  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotics Control</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanical Design</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">CAE/FEA</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">SolidWorks</span>
 **Role:** Lead Mechanical Designer    
 **Summary:** Developed a production-ready, 5-DOF gantry system that automates the extraction, reorientation, and visual inspection of 200-lb industrial lubricators, increasing throughput by 40%.
 
@@ -35,7 +39,7 @@ permalink: /projects.html
   <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/1-2.png' | relative_url }}" 
          alt="parameter optimization in ANSYS" 
-         style="height: 250px; object-fit: cover; border-radius: 12px;">
+         style="height: 100px; object-fit: cover; border-radius: 12px;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
       <strong>Parameter optimization in ANSYS</strong>
     </figcaption>
