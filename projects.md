@@ -26,11 +26,12 @@ permalink: /projects.html
   
 1\. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; margin: 1.2rem 0;">
-  <figure style="flex: 1; margin: 0; text-align: center;">
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 2; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/1-1.png' | relative_url }}" 
          alt="Full CAD assembly" 
-         style="height: 250px; object-fit: cover; border-radius: 12px;">
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
       <strong>Full CAD assembly of 5‑DOF gantry</strong>
     </figcaption>
@@ -39,11 +40,12 @@ permalink: /projects.html
   <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/1-2.png' | relative_url }}" 
          alt="parameter optimization in ANSYS" 
-         style="height: 100px; object-fit: cover; border-radius: 12px;">
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Parameter optimization in ANSYS</strong>
+      <strong>ANSYS Optimization</strong>
     </figcaption>
   </figure>
+
 </div>
 
 
