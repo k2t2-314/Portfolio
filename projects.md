@@ -160,6 +160,11 @@ permalink: /projects.html
 
 ## Auto-Meshing App for FEA Optimization
 **Course Project: Carnegie Mellon University (CMU)**   
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Scientific Computing</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Finite Element Analysis (FEA)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning (MLP)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Feature Engineering</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Full-Stack Deployment</span>  
 **Role:** Backend & Feature Science Developer  
 **Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.  
 
@@ -168,7 +173,41 @@ permalink: /projects.html
 
 1\. Developed an end-to-end FEA automation framework using PyAnsys to generate scalable datasets from STEP CAD models. I engineered a Python-based feature extraction module that translates complex geometric entities (holes, fillets, faces) into numerical descriptors. This allows the system to "understand" the mechanical significance of different part regions, forming the basis for intelligent mesh refinement.
 
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/6-2.png' | relative_url }}" 
+         alt="FEA Training Dataset" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Training Dataset: Labeled FEA Samples</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1.2; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/6-1.png' | relative_url }}" 
+         alt="Auto-Meshing Inference Results" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Inference Results: ML-Predicted Mesh Refinement</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
+
 2\. Trained a Multilayer Perceptron (MLP) model to predict optimal mesh parameters by combining rule-based heuristics with learned geometric patterns. The model achieved 75% accuracy and 90% recall despite limited data. The entire backend was containerized via Docker and deployed as an open-source application on Hugging Face, providing a user-friendly interface for real-time mesh refinement suggestions.
+
+<div style="margin: 1.5rem 0; text-align: center;">
+  <figure style="max-width: 90%; margin: 0 auto;">
+    <img src="{{ '/assets/img/6-3.png' | relative_url }}" 
+         alt="App User Interface" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <figcaption style="margin-top: 0.8rem; font-size: 0.85rem;">
+      <strong>Cloud Deployment: Interactive Mesh-Refinement Interface</strong>
+    </figcaption>
+  </figure>
+</div>
 
 </details>
 
@@ -287,6 +326,11 @@ permalink: /projects.html
 
 ## Collaborative Robotic Arm Design and Simulation  
 **Course Project: SJTU, Robotics**  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotic Manipulators</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanism Design (CAD/CAE)</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">MATLAB/Simulink</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Kinematics & Dynamics</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Planning</span>  
 **Role:** Designer & Simulation Engineer  
 **Summary:** Engineered a lightweight, 6-DOF collaborative robotic arm with an optimized payload-to-weight ratio. Conducted comprehensive market benchmarking and MATLAB-based dynamic simulations to validate high-precision trajectory tracking for collaborative manipulation tasks.  
 
