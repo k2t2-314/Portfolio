@@ -157,6 +157,24 @@ permalink: /projects.html
 </details>
 
 ---
+
+## Model-Based Control System for Magnetic Whiteboard Cleaning Robot 
+**Course Project: Carnegie Mellon University (CMU)**  
+**Role:** Robotics and Control Systems Designer
+**Summary:** Developed a differential-drive robot (WIPER) benchmarking platform to validate hybrid TVLQR/MPC tracking frameworks. Engineered a robust state estimation stack and explored multi-agent trajectory optimization using iLQR and Direct Collocation.
+
+<details markdown="1">
+  <summary><strong>View Project Details</strong></summary>
+
+1\. Designed a hybrid TVLQR/MPC tracking framework optimized for the WIPER platform. To overcome the high latency and low bandwidth of the Bluetooth-Arduino communication link, I leveraged iLQR (Iterative LQR) for rapid trajectory generation and warm-starting. This ensured the PC-based terminal could compute optimal control inputs at high frequency, mitigating potential path instability caused by wireless transmission delays and the limited computational power of the embedded microcontroller.
+
+2\. Engineered an autonomous software stack integrating AprilTag vision localization with EKF-based sensor fusion (IMU and Encoders). The system effectively mitigates real-world sensing noise and non-systematic errors, maintaining a localization drift of <2.5 cm. This high-fidelity state estimation provides the necessary feedback for the model-based controller to execute adaptive tracking and collision avoidance in dynamic indoor environments.
+
+</details>
+
+
+---
+
 ### III. Self‑Deployable Offshore Wave‑Damping Curtain System  
 **Department:** Mechanical Engineering (SJTU)  
 **Role:** Researcher – PRP Offshore Structures Group  
