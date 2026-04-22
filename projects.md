@@ -5,9 +5,9 @@ permalink: /projects.html
 ---
 
 <div style="margin-bottom: 30px;">
-  <a href="{{ '/' | relative_url }}">🏠 Home</a> |
-  <a href="{{ '/projects.html' | relative_url }}">🛠 Projects</a> |
-  <a href="{{ '/contact.html' | relative_url }}">📬 Contact</a>
+  <a href="{{ '/' | relative_url }}"> Home</a> |
+  <a href="{{ '/projects.html' | relative_url }}"> Projects</a> |
+  <a href="{{ '/contact.html' | relative_url }}"> Contact</a>
 </div>
 
 # Projects
