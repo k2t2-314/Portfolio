@@ -13,3 +13,4 @@ permalink: /resume.html
 </div>
 
 # Resume
+https://github.com/k2t2-314/Portfolio/blob/main/assets/img/Xinxuan_Tang_Resume_01.png
