@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Contact
-permalink: /contact.html
+title: Resume
+permalink: /resume.html
 ---
 
 <!-- Navigation -->
