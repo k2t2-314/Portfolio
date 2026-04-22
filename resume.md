@@ -13,6 +13,7 @@ permalink: /resume.html
 </div>
 
 # Resume
+---
   <figure style="flex: 2; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/Xinxuan_Tang_Resume_01.png' | relative_url }}" 
          alt="Resume" 
