@@ -267,7 +267,7 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Wave-Tank Testing</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>  
 **Role:** Mechatronics Researcher and Tester  
-**Summary:** eveloped an autonomous, modular inflatable curtain system for offshore wave attenuation. Engineered a composite material structure and a remote deployment framework to ensure operational safety and structural integrity in harsh marine environments.  
+**Summary:** Developed an autonomous, modular inflatable curtain system for offshore wave attenuation. Engineered a composite material structure and a remote deployment framework to ensure operational safety and structural integrity in harsh marine environments.  
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
