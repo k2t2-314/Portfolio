@@ -11,7 +11,7 @@ title: Home
   <a href="{{ '/contact.html' | relative_url }}"> Contact</a>
 </div>
 
-# Hi, I'm Xinxuan Tang
+# About Me
 
 Building across mechanical design, robotics, and AI/ML — from multi-DOF structures and exoskeletons to modern control, real-time object detection, and full-stack prototyping.
 
