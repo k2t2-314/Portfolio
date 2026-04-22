@@ -12,7 +12,7 @@ permalink: /contact.html
   <a href="{{ '/contact.html' | relative_url }}"> Contact</a>
 </div>
 
-# 📬 Contact
+# Contact
 
 - **Email:** xinxuant@andrew.cmu.edu
 - **Alternate:** 2516879270@qq.com
