@@ -16,7 +16,7 @@ permalink: /projects.html
 ---
 
 ## Flexible Lubricator Handling & Inspection Platform
-**Industry Collaboration: WellMasters Corporation & SJTU**  
+**Industry Collaboration: WellMaster Corporation & SJTU**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotics Control</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanical Design</span>
