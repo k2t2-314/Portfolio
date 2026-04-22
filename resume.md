@@ -20,10 +20,10 @@ permalink: /resume.html
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
   </figure>
 
-<div style="text-align: center; margin-top: 12px;">
-  <a href="{{ '/assets/files/Xinxuan_Tang_Resume.pdf' | relative_url }}" 
-     download style="padding: 8px 16px; background: #333; color: white; 
-     border-radius: 6px; text-decoration: none;">
-    Download PDF
-  </a>
-</div>
+  <div style="text-align: center; margin-top: 12px;">
+    <a href="{{ '/assets/files/Xinxuan_Tang_Resume.pdf' | relative_url }}" 
+       download style="padding: 8px 16px; background: #333; color: white; 
+       border-radius: 6px; text-decoration: none;">
+      Download PDF
+    </a>
+  </div>
