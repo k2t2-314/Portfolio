@@ -16,14 +16,15 @@ permalink: /projects.html
 ---
 
 ## Flexible Lubricator Handling & Inspection Platform
-**Industry Collaboration: Well Master Corporation & SJTU**  
+**Industry Collaboration: WellMasters Corporation & SJTU**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotics Control</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanical Design</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">CAE/FEA</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">SolidWorks</span>  
 **Role:** Lead Mechanical Designer    
-**Summary:** Developed a production-ready, 5-DOF gantry system that automates the extraction, reorientation, and visual inspection of 200-lb industrial lubricators, increasing throughput by 40%.
+**Summary:** Developed a production-ready, 5-DOF gantry system that automates the extraction, reorientation, and visual inspection of 200-lb industrial lubricators, increasing throughput by 40%.  
+**Impact:** Eliminates manual handling of 200-lb lubricators in hazardous factory environments, reducing workplace injury risk while enabling 24/7 automated quality control at industrial scale.
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
@@ -100,7 +101,8 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">3D Printing</span>  
 **Role:** Graduate Research Assistant  
-**Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.
+**Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
+**Impact:** Provides spinal cord injury (SCI) patients with a low-latency, intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
@@ -169,6 +171,8 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Full-Stack Deployment</span>  
 **Role:** Backend & Feature Science Developer  
 **Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.  
+**Impact:** Reduces manual FEA pre-processing time for mechanical engineers, lowering the barrier to simulation-driven design and enabling faster, more reliable product development cycles.
+
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
@@ -224,6 +228,7 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Arduino/Embedded Control</span>  
 **Role:** Robotics and Control Systems Designer  
 **Summary:** Developed a differential-drive robot (WIPER) benchmarking platform to validate hybrid TVLQR/MPC tracking frameworks. Engineered a robust state estimation stack and explored multi-agent trajectory optimization using iLQR and Direct Collocation.  
+**Impact:** Demonstrates a low-cost autonomous cleaning platform applicable to shared workspaces and classrooms, validating model-based control frameworks that generalize to mobile service robotics.
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
@@ -267,8 +272,9 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Wave-Tank Testing</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>  
 **Role:** Mechatronics Researcher and Tester  
-**Summary:** Developed an autonomous, modular inflatable curtain system for offshore wave attenuation. Engineered a composite material structure and a remote deployment framework to ensure operational safety and structural integrity in harsh marine environments.  
-
+**Summary:** Developed an autonomous, modular inflatable curtain system for offshore wave attenuation. Engineered a composite material structure and a remote deployment framework to ensure operational safety and structural integrity in harsh marine environments.   
+**Impact:** Protects offshore infrastructure and marine workers from wave damage in harsh sea conditions, offering a rapidly deployable, reusable alternative to permanent coastal protection structures.
+ 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
 
@@ -335,6 +341,7 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Planning</span>  
 **Role:** Designer & Simulation Engineer  
 **Summary:** Engineered a lightweight, 6-DOF collaborative robotic arm with an optimized payload-to-weight ratio. Conducted comprehensive market benchmarking and MATLAB-based dynamic simulations to validate high-precision trajectory tracking for collaborative manipulation tasks.  
+**Impact:** Advances the design of lightweight collaborative robots for human-safe manufacturing environments, where payload efficiency directly translates to lower energy costs and broader deployment feasibility.
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
