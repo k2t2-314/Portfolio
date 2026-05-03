@@ -10,3 +10,18 @@
   color: #444444;
   line-height: 1.6;
 }
+
+/* Narrow the sidebar */
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+}
+
+header {
+  width: 15%;
+  min-width: 120px;
+}
+
+section {
+  width: 80%;
+}
