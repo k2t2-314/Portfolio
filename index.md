@@ -21,7 +21,7 @@ M.S. student in the Mechanical Engineering department at CMU major in Artificial
 **Linkedin**: [Xinxuan Tang](https://www.linkedin.com/in/xinxuant/)  
 **GitHub**: [k2t2-314](https://github.com/k2t2-314)  
 **Current Location**: Pittsburgh, PA  
-**Seeking**: 2026 Summer Internship or Full-time Job in Robotics / Mechanical Engineer / Mechatronics / Artificial Intelligence areas
+**Seeking**: 2026 Summer Internship or Full-time Job
 
 ## Skills
 
@@ -32,22 +32,18 @@ Python, C, C++, MATLAB, Linux, Git, Julia
 **Frameworks:** PyTorch, TensorFlow, Keras, Scikit-learn  
 **Computer Vision:** OpenCV, YOLO (v8/v11), MediaPipe  
 **Machine Learning:** Deep Learning (CNN, RNN, MLP), Reinforcement Learning (PPO, SAC), LLMs  
-**Data Infrastructure:** Pandas, NumPy, Spark, Docker, Google Cloud Platform (GCP), Azure, AWS, CUDA  
+**Data Infrastructure:** Edge Deployme, Pandas, NumPy, Spark, Docker, Google Cloud Platform (GCP), Azure, AWS, CUDA, API Integration
 
 ### Robotics Systems  
-- **Middleware:** ROS 1/2 (Communication: TCP/UDP/ICMP)
-- **Control Theory:** PID, LQR, MPC, TVLQR (Time-Varying LQR)
-- **System Integration:** Sensor Fusion, Real-time Control, Embedded Systems (Arduino, Raspberry Pi)
-- **Communication:** Serial, TCP/IP, API Integration
+**Operation:** ROS/ROS 2  
+**Control Theory:** PID, LQR, MPC, TVLQR (Time-Varying LQR)
+**System Integration:** Sensor Fusion, Embedded Systems (Arduino, Raspberry Pi), Serial, TCP/UDP/ICMP
+**Simulation:** IsaacLab, IsaacSim Windows, MuJoCo
 
-### Mechanical Engineering Tools 
-- **Design:** SolidWorks, AutoCAD, GD&T, DFM/DFA, Tolerance Analysis
-- **Simulation (CAE):** ANSYS (FEA/FEM), CFD, MSC Adams (Multi-body Dynamics), MATLAB/Simulink
-- **Prototyping:** 3D Printing, CNC (Lathes, Mills), PCB Design, Instrumentation & DAQ, LabVIEW
-
-### Languages  
-- **English:** Professional Working Proficiency
-- **Mandarin:** Native
+### Mechanical Engineering
+**Design:** SolidWorks, KiCad (PCBs), AutoCAD, GD&T, DFM/DFA, Tolerance Analysis
+**Simulation:** ANSYS (FEA/FEM), CFD, MSC Adams (Multi-body Dynamics), MATLAB Simulink
+**Prototyping:** 3D Printing, Laser Cutting, CNC, Lathes, Mills, Instrumentation & DAQ, LabVIEW
 
 ## Education  
 <table>
