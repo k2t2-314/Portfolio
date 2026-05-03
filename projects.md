@@ -146,8 +146,7 @@ permalink: /projects.html
   </figcaption>
 </figure>
 
-3\. Engineered a high-dimensional time-series classification pipeline utilizing a 1D-CNN architecture to decode multi-channel sEMG signals into 7 predictive categories. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns and validating the rig's functionality through qualitative performance metrics.
-
+3\. Engineered a high-dimensional time-series classification pipeline comparing 1D-CNN, RNN, and Random Forest algorithms to decode multi-channel sEMG signals into 7 predictive categories, achieving **85% accuracy in cross-day testing**. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns.
 
 </details>
 <div style="margin-bottom: 8px;"></div>
