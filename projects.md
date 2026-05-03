@@ -183,7 +183,7 @@ permalink: /projects.html
 
 <div style="margin-bottom: 8px;"></div>
 
-1. Established and reproduced a full diffusion policy learning pipeline in IsaacLab, integrating on-policy training with a generative diffusion model to improve action distribution expressiveness for complex manipulation tasks including object reorientation.
+1\. Established and reproduced a full diffusion policy learning pipeline in **IsaacLab**, integrating on-policy training with **a generative diffusion model** to improve action distribution expressiveness for complex manipulation tasks including object reorientation. This algorithm can slightly outperform **PPO** under the same training environment, and far surpasses PPO under better **GPU** environments.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
@@ -207,8 +207,7 @@ permalink: /projects.html
 
 </div>
 
-
-2. Designed and conducted ablation experiments comparing Jacobian-based and Hutchinson stochastic trace estimation within the diffusion process. The Hutchinson method achieved 90% of the original reward value while reducing per-step computation time by 50%, validating its viability as a lightweight alternative for real-time deployment scenarios.
+2\. Designed and conducted ablation experiments comparing **Jacobian-based** and **Hutchinson stochastic trace estimation** within the diffusion process. The Hutchinson method achieved **90%** of the original reward value while reducing per-step computation time, validating its viability as a lightweight alternative for real-time deployment scenarios.
 
 
 </details>
