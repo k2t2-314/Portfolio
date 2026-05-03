@@ -282,7 +282,6 @@ permalink: /projects.html
 
 ## Model-Based Magnetic Cleaning Robot 
 **Jan 2025 - May 2025**  
-**Course Project: Carnegie Mellon University (CMU)**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Model Predictive Control (MPC)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Optimization (iLQR)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">State Estimation (EKF)</span>
@@ -329,7 +328,6 @@ permalink: /projects.html
 
 ## Self-Deployable Offshore Wave-Damping Curtain System
 **Feb 2023 - Feb 2024**  
-**Research Project: SJTU PRP Offshore Structures Group**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Marine Engineering</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Fluid-Structure Interaction (FSI)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Material Science</span>
@@ -400,7 +398,6 @@ permalink: /projects.html
 ---
 
 ## Collaborative Robotic Arm Design and Simulation  
-**Course Project: SJTU, Robotics**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotic Manipulators</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanism Design (CAD/CAE)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">MATLAB/Simulink</span>
