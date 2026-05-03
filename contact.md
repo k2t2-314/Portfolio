@@ -19,5 +19,4 @@ permalink: /contact.html
 - **Linkedin:** [Xinxuan Tang](linkedin.com/in/xinxuant)
 - **GitHub:** [k2t2-314](https://github.com/k2t2-314)  
 - **Current Location:** Pittsburgh, PA  
-- **Seeking:** Summer Internship and Full-time Job
--  Robotics / Mechanical Engineer / Mechatronics / Artificial Intelligence
+- **Seeking:** 2026 Summer Internship or Full-time Job in Robotics / Mechanical Engineer / Mechatronics / Artificial Intelligence areas
