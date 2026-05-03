@@ -105,7 +105,7 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Deep Learning</span>  
 **Role:** Graduate Research Assistant  
 **Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
-**Impact:** Provides spinal cord injury (SCI) patients with an intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.
+**Impact:** Provides spinal cord injury (SCI) patients with an intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.  
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
@@ -160,9 +160,9 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">IsaacLab</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Dexterous Manipulation</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robot Simulation</span>  
-**Role:** Algorithm Researcher  
-**Summary:** Reproduced and extended a generative diffusion on-policy learning pipeline in IsaacLab to enhance the expressiveness of on-policy RL algorithms for dexterous manipulation tasks. Conducted ablation experiments to evaluate alternative stochastic estimation methods within the diffusion process.
-**Impact:** Demonstrated that Hutchinson stochastic estimation can offer a more efficient path toward real-time dexterous manipulation.
+**Role:** Algorithm Researcher   
+**Summary:** Reproduced and extended a generative diffusion on-policy learning pipeline in IsaacLab to enhance the expressiveness of on-policy RL algorithms for dexterous manipulation tasks. Conducted ablation experiments to evaluate alternative stochastic estimation methods within the diffusion process.  
+**Impact:** Demonstrated that Hutchinson stochastic estimation can offer a more efficient path toward real-time dexterous manipulation.  
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
