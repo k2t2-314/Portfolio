@@ -152,8 +152,33 @@ permalink: /projects.html
 <div style="margin-bottom: 8px;"></div>
 ---
 
+## Implementation of Generative Diffusion On-Policy on a Dexterous Hand
+**Jan 2026 - May 2026**
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Diffusion Policy</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Reinforcement Learning</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">IsaacLab</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Dexterous Manipulation</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robot Simulation</span>  
+**Role:** Algorithm Researcher  
+**Summary:** Reproduced and extended a generative diffusion on-policy learning pipeline in IsaacLab to enhance the expressiveness of on-policy RL algorithms for dexterous manipulation tasks. Conducted ablation experiments to evaluate alternative stochastic estimation methods within the diffusion process.
+**Impact:** Demonstrated that Hutchinson stochastic estimation can offer a more efficient path toward real-time dexterous manipulation.
+
+<details markdown="1">
+  <summary><strong>View Project Details</strong></summary>
+
+<div style="margin-bottom: 8px;"></div>
+
+1. Established and reproduced a full diffusion policy learning pipeline in IsaacLab, integrating on-policy training with a generative diffusion model to improve action distribution expressiveness for complex manipulation tasks including object reorientation.
+
+
+2. Designed and conducted ablation experiments comparing Jacobian-based and Hutchinson stochastic trace estimation within the diffusion process. The Hutchinson method achieved 90% of the original reward value while reducing per-step computation time by 50%, validating its viability as a lightweight alternative for real-time deployment scenarios.
+
+
+</details>
+<div style="margin-bottom: 8px;"></div>
+---
+
 ## Auto-Meshing App for FEA Optimization
-**Course Project: Carnegie Mellon University (CMU)**   
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Scientific Computing</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Finite Element Analysis (FEA)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning (MLP)</span>
