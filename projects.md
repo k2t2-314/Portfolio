@@ -223,6 +223,9 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Full-Stack Deployment</span>  
 **Role:** Backend & Feature Science Developer  
 **Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.  
+**Links:** 
+<a href="https://github.com/k2t2-314/mesh-refinement-prediction" target="_blank">GitHub</a> | 
+<a href="https://huggingface.co/spaces/ecopus/mesh-refinement-agent" target="_blank">Hugging Face Demo ↗</a>  
 **Impact:** Reduces manual FEA pre-processing time for mechanical engineers, lowering the barrier to simulation-driven design and enabling faster, more reliable product development cycles.
 
 
