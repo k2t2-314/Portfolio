@@ -215,6 +215,7 @@ permalink: /projects.html
 ---
 
 ## Auto-Meshing App for FEA Optimization
+**Oct 2025 - Dec 2025**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Scientific Computing</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Finite Element Analysis (FEA)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning (MLP)</span>
