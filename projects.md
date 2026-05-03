@@ -231,7 +231,7 @@ permalink: /projects.html
 
 <div style="margin-bottom: 8px;"></div>
 
-1\. Developed an end-to-end FEA automation framework using PyAnsys to generate scalable datasets from STEP CAD models. I engineered a Python-based feature extraction module that translates complex geometric entities (holes, fillets, faces) into numerical descriptors. This allows the system to "understand" the mechanical significance of different part regions, forming the basis for intelligent mesh refinement.
+1\. Developed an end-to-end FEA automation framework using **PyAnsys** to generate scalable datasets from STEP CAD models. I engineered a Python-based feature extraction module that translates complex geometric entities (holes, fillets, faces) into numerical descriptors. This allows the system to "understand" the mechanical significance of different part regions, forming the basis for intelligent mesh refinement.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
@@ -256,7 +256,7 @@ permalink: /projects.html
 </div>
 
 
-2\. Trained a Multilayer Perceptron (MLP) model to predict optimal mesh parameters by combining rule-based heuristics with learned geometric patterns. The model achieved 75% accuracy and 90% recall despite limited data. The entire backend was containerized via Docker and deployed as an open-source application on Hugging Face, providing a user-friendly interface for real-time mesh refinement suggestions.
+2\. Trained a Multilayer Perceptron (MLP) model to predict optimal mesh parameters by combining rule-based heuristics with learned geometric patterns. The model achieved **75%** accuracy and **90%** recall despite limited data. The entire backend was containerized via Docker and deployed as an open-source application on Hugging Face, providing a user-friendly interface for real-time mesh refinement suggestions.
 
 <div style="margin: 1.5rem 0; text-align: center;">
   <figure style="max-width: 90%; margin: 0 auto;">
@@ -269,7 +269,7 @@ permalink: /projects.html
   </figure>
 </div>
 
-3\. Reduced mesh parameter prediction time from 20+ minutes (Ansys CPU simulation) to ~15 seconds via a deployable Docker web application, enabling offline mesh generation without any physical simulation dependency.
+3\. Reduced mesh parameter prediction time from more than 20 minutes (Ansys CPU simulation) to less than **15 seconds** via a deployable **Docker** web application, enabling offline mesh generation without any physical simulation dependency.
 
 </details>
 <div style="margin-bottom: 8px;"></div>
