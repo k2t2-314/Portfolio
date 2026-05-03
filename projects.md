@@ -105,6 +105,8 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Deep Learning</span>  
 **Role:** Graduate Research Assistant  
 **Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
+**Links:** 
+  <a href="https://github.com/k2t2-314/wrist_rig" target="_blank" style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 3px 10px; font-size: 0.9em; text-decoration: none;">GitHub</a>  
 **Impact:** Provides spinal cord injury (SCI) patients with an intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.  
 
 <details markdown="1">
