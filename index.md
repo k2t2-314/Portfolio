@@ -13,16 +13,15 @@ title: Home
 
 # About Me
 
-Building across mechanical design, robotics, and AI/ML — from multi-DOF structures and exoskeletons to modern control, real-time object detection, and full-stack prototyping.
-
+M.S. student in the Mechanical Engineering department at CMU major in Artificial Intelligence Engineering, with extensive experience in mechanical design，rapid prototyping， robotics operation and simulation. At the same time, capabilities in full-stack ML deployment are validated during the real project.
 
 ## What I do
-### Artificial Intelligence & Software
-*Focus: Data processing, model training, and industrial deployment.*
+### Artificial Intelligence and Software
+*Focus: Data processing, Annotation, Model Training, and Cloud Deployment.*
 
 - **Frameworks:** PyTorch, TensorFlow, Keras, Scikit-learn
-- **Computer Vision:** OpenCV, YOLO (v8/v11), MediaPipe, Transfer Learning
-- **Machine Learning:** Deep Learning (CNN, RNN), Reinforcement Learning, LLMs, Pandas/NumPy
+- **Computer Vision:** OpenCV, YOLO (v8/v11), MediaPipe
+- **Machine Learning:** Deep Learning (CNN, RNN, MLP), Reinforcement Learning (PPO, SAC), LLMs, Pandas, NumPy
 - **Development:** Python, C/C++, SQL, Docker, Linux/Unix, Git, CUDA GPU Acceleration, GCP
 
 ### Robotics & Autonomous Systems
