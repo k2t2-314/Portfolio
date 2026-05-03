@@ -12,6 +12,8 @@ title: Home
 
 # About Me
 
+---
+
 M.S. student in the Mechanical Engineering department at CMU major in Artificial Intelligence Engineering, with extensive experience in mechanical design, rapid prototyping, robotics operation and simulation. At the same time, capabilities in full-stack ML deployment are validated during the real project.
 
 ## Contact Information
