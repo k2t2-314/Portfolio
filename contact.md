@@ -13,6 +13,8 @@ permalink: /contact.html
 </div>
 
 # Contact
+---
+
 
 - **Email:** xinxuant@andrew.cmu.edu
 - **Alternate:** 2516879270@qq.com
