@@ -27,17 +27,17 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">SolidWorks</span>  
 **Role:** Lead Mechanical Designer    
 **Summary:** Developed a production-ready 5-DOF gantry system that automates the extraction, reorientation and visual inspection of industrial lubricators, increasing throughput and saving operation time.  
-**Impact:** Eliminates manual handling of 200-lb lubricators in hazardous factory environments, reducing workplace injury risk while enabling 24/7 automated quality control at industrial scale.
+**Impact:** Eliminates manual handling of 200 lb lubricators in hazardous factory environments, reducing workplace injury risk while enabling 24/7 automated quality control at industrial scale.
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
 <div style="margin-bottom: 8px;"></div>
 
-1\. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
+1\. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to **<0.7 mm** and ensuring a modal frequency **>25 Hz** to eliminate operational resonance.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
-  <figure style="flex: 2; margin: 0; text-align: center;">
+  <figure style="flex: 1.8; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/1-1.png' | relative_url }}" 
          alt="Full CAD assembly" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
@@ -57,18 +57,18 @@ permalink: /projects.html
 
 </div>
 
-2\. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with <3° overshoot and a settling time of <2.5 s.
+2\. Implemented multi-actuator coordination utilizing **Fuzzy PID** for Z-axis soft-landing and coupled PID for synchronized 5-axis gantry motion. Integrated real-time safety interlocks via torque sensing and IMU-based alignment, achieving flipping stability with **<3°** overshoot and a settling time of **<2.5 s**.
 
 <figure style="margin: 1.5rem auto; text-align: center; max-width: 85%;">
   <img src="{{ '/assets/img/1-4.png' | relative_url }}" 
        alt="Full CAD assembly" 
-       style="width: 100%; height: auto; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+       style="width: 100%; height: auto; border-radius: 12px; border: 1px solid #eee;">
   <figcaption style="margin-top: 0.8rem; font-size: 0.85rem; color: #555;">
     <strong>Control System Architecture & Simulation via Simulink</strong>
   </figcaption>
 </figure>
 
-3\. Engineered a real-time perception system by deploying a **YOLOv11 model**, utilizing a **Sim-to-Real data strategy** (3D synthetic models + real-world photography). Achieved **92% mAP** for multi-class industrial part detection and 25 FPS inference speed, enabling fully automated pass/fail inspection logic.
+3\. Engineered a real-time perception system by deploying a **YOLOv11 model**, utilizing a **Sim-to-Real data strategy** (3D CAD models and real-world photography). Achieved **92% mAP** for multi-class part detection, enabling fully automated inspection logic.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
@@ -93,7 +93,6 @@ permalink: /projects.html
 </div>
 
 </details>
-
 
 ---
 
