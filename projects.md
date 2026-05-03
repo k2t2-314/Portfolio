@@ -96,7 +96,7 @@ permalink: /projects.html
 ---
 
 ## Neuro-Mechatronics Lab, CMU
-**Sep 2025 - Present** 
+**Sep 2025 - Present**   
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Exoskeleton</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Biosignal Processing</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Wearable Devices</span>
