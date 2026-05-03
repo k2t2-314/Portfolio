@@ -24,35 +24,31 @@ M.S. student in the Mechanical Engineering department at CMU major in Artificial
 **Seeking**: 2026 Summer Internship or Full-time Job in Robotics / Mechanical Engineer / Mechatronics / Artificial Intelligence areas
 
 ## Skills
-### Artificial Intelligence and Software
-*Focus: Data processing, Annotation, Model Training, and Cloud Deployment.*
-
+### Artificial Intelligence and Software  
+*Focus: Data processing, Annotation, Model Training, and Cloud Deployment.*  
 - **Frameworks:** PyTorch, TensorFlow, Keras, Scikit-learn
 - **Computer Vision:** OpenCV, YOLO (v8/v11), MediaPipe
 - **Machine Learning:** Deep Learning (CNN, RNN, MLP), Reinforcement Learning (PPO, SAC), LLMs, Pandas, NumPy
 - **Development:** Python, C/C++, SQL, Docker, Linux/Unix, Git, CUDA GPU Acceleration, GCP
 
-### Robotics & Autonomous Systems
-*Focus: Bridging algorithms with physical hardware and real-time execution.*
-
+### Robotics & Autonomous Systems  
+*Focus: Bridging algorithms with physical hardware and real-time execution.*  
 - **Middleware:** ROS 1/2 (Communication: TCP/UDP/ICMP)
 - **Control Theory:** PID, LQR, MPC, TVLQR (Time-Varying LQR)
 - **System Integration:** Sensor Fusion, Real-time Control, Embedded Systems (Arduino, Raspberry Pi)
 - **Communication:** Serial, TCP/IP, API Integration
 
-### Engineering & CAE (Physical Intelligence)
-*Focus: Physical world modeling, structural validation, and hardware prototyping.*
-
+### Engineering & CAE (Physical Intelligence)  
+*Focus: Physical world modeling, structural validation, and hardware prototyping.*  
 - **Design:** SolidWorks, AutoCAD, GD&T, DFM/DFA, Tolerance Analysis
 - **Simulation (CAE):** ANSYS (FEA/FEM), CFD, MSC Adams (Multi-body Dynamics), MATLAB/Simulink
 - **Prototyping:** 3D Printing, CNC (Lathes, Mills), PCB Design, Instrumentation & DAQ, LabVIEW
 
-### Languages
+### Languages  
 - **English:** Professional Working Proficiency
 - **Mandarin:** Native
 
-
-## Education
+## Education  
 <table>
   <tr>
     <td><strong>Carnegie Mellon University (CMU)</strong></td>
