@@ -135,9 +135,8 @@ permalink: /projects.html
 
 </div>
 
-2\. Designed a high-fidelity rehabilitation rig utilizing an electric damper and a closed-loop control architecture for smooth torque tracking. The system integrates a load cell and IMU for multi-modal sensor fusion, enabling responsive feedback and programmable resistance. This device ensures the acquisition of high-quality dEMG data within the framework of scientific experimental design, achieving a repetitive tracking error of less than 0.5°.
+2\. Designed a high-fidelity rehabilitation rig utilizing an electric damper and a closed-loop control architecture for smooth torque tracking. The system integrates a load cell and IMU for **multi-modal** sensor fusion, enabling responsive feedback and programmable resistance. This device ensures the acquisition of **high-quality dEMG** data within the framework of scientific experimental design, achieving a repetitive tracking error of less than **0.5°**.
 
-  
 <figure style="flex: 2; margin: 0; text-align: center;">
   <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
        alt="CAD Design" 
@@ -146,7 +145,6 @@ permalink: /projects.html
     <strong>3D CAD of Wrist Rig</strong>
   </figcaption>
 </figure>
-
 
 3\. Engineered a high-dimensional time-series classification pipeline utilizing a 1D-CNN architecture to decode multi-channel sEMG signals into 7 predictive categories. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns and validating the rig's functionality through qualitative performance metrics.
 
