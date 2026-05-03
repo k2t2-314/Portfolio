@@ -280,7 +280,7 @@ permalink: /projects.html
 <div style="margin-bottom: 8px;"></div>
 ---
 
-## Model-Based Control System for Magnetic Whiteboard Cleaning Robot 
+## Model-Based Magnetic Cleaning Robot 
 **Course Project: Carnegie Mellon University (CMU)**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Model Predictive Control (MPC)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Optimization (iLQR)</span>
@@ -294,9 +294,10 @@ permalink: /projects.html
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
 
-1\. Designed a hybrid TVLQR/MPC tracking framework optimized for the WIPER platform. To overcome the high latency and low bandwidth of the Bluetooth-Arduino communication link, I leveraged iLQR (Iterative LQR) for rapid trajectory generation and warm-starting. This ensured the PC-based terminal could compute optimal control inputs at high frequency, mitigating potential path instability caused by wireless transmission delays and the limited computational power of the embedded microcontroller.
+1\. Designed a hybrid **TVLQR/MPC** tracking framework optimized for the WIPER platform. To overcome the high latency and low bandwidth of the Bluetooth-Arduino communication link, I leveraged **iLQR (Iterative LQR)** for rapid trajectory generation and warm-starting. This ensured the PC-based terminal could compute optimal control inputs at high frequency, mitigating potential path instability caused by wireless transmission delays and the limited computational power of the embedded microcontroller.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+<div style="margin-bottom: 8px;"></div>
   
   <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/3-1.png' | relative_url }}" 
@@ -307,7 +308,7 @@ permalink: /projects.html
     </figcaption>
   </figure>
 
-  <figure style="flex: 1; margin: 0; text-align: center;">
+  <figure style="flex: 1.5; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/3-2.png' | relative_url }}" 
          alt="Real-world Robot Trajectory" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
@@ -318,9 +319,10 @@ permalink: /projects.html
 
 </div>
 
-2\. Engineered an autonomous software stack integrating AprilTag vision localization with EKF-based sensor fusion (IMU and Encoders). The system effectively mitigates real-world sensing noise and non-systematic errors, maintaining a localization drift of <2.5 cm. This high-fidelity state estimation provides the necessary feedback for the model-based controller to execute adaptive tracking and collision avoidance in dynamic indoor environments.
+2\. Engineered an autonomous software stack integrating AprilTag vision localization with EKF-based sensor fusion **(IMU and Encoders)**. The system effectively mitigates real-world sensing noise and non-systematic errors, maintaining a localization drift of **<2.5 cm**. This high-fidelity state estimation provides the necessary feedback for the model-based controller to execute adaptive tracking and collision avoidance in dynamic indoor environments.
 
 </details>
+<div style="margin-bottom: 8px;"></div>
 
 ---
 
