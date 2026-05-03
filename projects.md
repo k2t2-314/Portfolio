@@ -14,25 +14,26 @@ permalink: /projects.html
 # Professional Experience
 ---
 
-## Actuation Module for Hand Exoskeleton   
-**Research Project: Carnegie Mellon University (CMU) | NeuroMechatronics Lab**  
+## Neuro-Mechatronics Lab, CMU
+**Sep 2025 - Present** 
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Exoskeleton</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Biosignal Processing</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Soft Robotics</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Wearable Devices</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">3D Printing</span>  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">3D Printing</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Deep Learning</span>  
 **Role:** Graduate Research Assistant  
 **Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
-**Impact:** Provides spinal cord injury (SCI) patients with a low-latency, intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.
+**Impact:** Provides spinal cord injury (SCI) patients with an intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
-
-1\. Developed a low-profile, wearable finger linkage featuring iterative CAD packaging for cable routing and palm-mounted motor housing. By employing Bowden-cable routing for tendon mimicry, the system achieves a 60° ROM with <5 mm lateral shift. The Arduino-driven actuation delivers a peak torque of 0.18 Nm with ~180 ms latency, while integrating spring-guided soft returns and mechanical stops to ensure user safety and ergonomic comfort.
+88
+1\. Developed a light wearable finger linkage featuring iterative CAD packaging for cable routing and palm-mounted motor housing. The system achieves **33%** improvement in wrist range of motion in patient trials. The Arduino-driven actuation delivers a peak torque of **0.18 Nm** while integrating spring-guided soft returns and mechanical stops to ensure user safety and ergonomic comfort.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
-  <figure style="flex: 2; margin: 0; text-align: center;">
+  <figure style="flex: 1.8; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/2-1.png' | relative_url }}" 
          alt="Finger Linkage CAD Design" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
@@ -86,7 +87,7 @@ permalink: /projects.html
 # Projects
 ---
 
-## Flexible Lubricator Handling & Inspection Platform
+## Flexible Lubricator Handling Platform
 **Dec 2024 – Jun 2025**  
 **Industry Collaboration: WellMaster Corporation, SJTU**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
