@@ -168,6 +168,8 @@ permalink: /projects.html
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
 
+<div style="margin-bottom: 8px;"></div>
+
 1\. Developed an end-to-end FEA automation framework using PyAnsys to generate scalable datasets from STEP CAD models. I engineered a Python-based feature extraction module that translates complex geometric entities (holes, fillets, faces) into numerical descriptors. This allows the system to "understand" the mechanical significance of different part regions, forming the basis for intelligent mesh refinement.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
