@@ -36,14 +36,14 @@ Python, C, C++, MATLAB, Linux, Git, Julia
 
 ### Robotics Systems  
 **Operation:** ROS/ROS 2  
-**Control Theory:** PID, LQR, MPC, TVLQR (Time-Varying LQR)
-**System Integration:** Sensor Fusion, Embedded Systems (Arduino, Raspberry Pi), Serial, TCP/UDP/ICMP
-**Simulation:** IsaacLab, IsaacSim Windows, MuJoCo
+**Control Theory:** PID, LQR, MPC, TVLQR (Time-Varying LQR)  
+**System Integration:** Sensor Fusion, Embedded Systems (Arduino, Raspberry Pi), Serial, TCP/UDP/ICMP  
+**Simulation:** IsaacLab, IsaacSim Windows, MuJoCo  
 
 ### Mechanical Engineering
-**Design:** SolidWorks, KiCad (PCBs), AutoCAD, GD&T, DFM/DFA, Tolerance Analysis
-**Simulation:** ANSYS (FEA/FEM), CFD, MSC Adams (Multi-body Dynamics), MATLAB Simulink
-**Prototyping:** 3D Printing, Laser Cutting, CNC, Lathes, Mills, Instrumentation & DAQ, LabVIEW
+**Design:** SolidWorks, KiCad (PCBs), AutoCAD, GD&T, DFM/DFA, Tolerance Analysis  
+**Simulation:** ANSYS (FEA/FEM), CFD, MSC Adams (Multi-body Dynamics), MATLAB Simulink  
+**Prototyping:** 3D Printing, Laser Cutting, CNC, Lathes, Mills, Instrumentation & DAQ, LabVIEW  
 
 ## Education  
 <table>
