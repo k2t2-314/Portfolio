@@ -54,7 +54,7 @@ Python, C, C++, MATLAB, Linux, Git, Julia
 </table>
 
 **M.S. in Artificial Intelligence, School of Mechanical Engineering**  
-Aug 2025 - Dec 2026 (Expected)
+Aug 2025 - Dec 2026 (Expected)  
 Focus: Robot Design, Wearble Device, Machine Learning, AI System Deployment, Reinforcement Learning   
 **GPA 4.00**
 
