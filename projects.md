@@ -75,7 +75,7 @@ permalink: /projects.html
          alt="YOLOv11 Training Metrics" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>YOLOv11 Training Metrics & mAP Curve</strong>
+      <strong>YOLOv11 Training mAP Curve</strong>
     </figcaption>
   </figure>
 
@@ -84,7 +84,7 @@ permalink: /projects.html
          alt="Real-time Inference and Localization" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Real-time Detection & Localization</strong>
+      <strong>Real-time Localization</strong>
     </figcaption>
   </figure>
 
