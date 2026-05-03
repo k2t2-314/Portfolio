@@ -166,7 +166,7 @@ permalink: /projects.html
 <div style="margin-bottom: 8px;"></div>
 ---
 
-## Generative Diffusion On-Policy on Dexterous Hands
+## Generative Diffusion on Dexterous Hands
 **Jan 2026 - May 2026**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Diffusion Policy</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Reinforcement Learning</span>
@@ -184,6 +184,28 @@ permalink: /projects.html
 <div style="margin-bottom: 8px;"></div>
 
 1. Established and reproduced a full diffusion policy learning pipeline in IsaacLab, integrating on-policy training with a generative diffusion model to improve action distribution expressiveness for complex manipulation tasks including object reorientation.
+
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/environment.png' | relative_url }}" 
+         alt="Finger Linkage CAD Design" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Simulation Environment</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/reward_all_method.png' | relative_url }}" 
+         alt="Wearable Prototype on Hand" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Comparison of Rewards</strong>
+    </figcaption>
+  </figure>
+
+</div>
 
 
 2. Designed and conducted ablation experiments comparing Jacobian-based and Hutchinson stochastic trace estimation within the diffusion process. The Hutchinson method achieved 90% of the original reward value while reducing per-step computation time by 50%, validating its viability as a lightweight alternative for real-time deployment scenarios.
