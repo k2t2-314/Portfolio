@@ -9,7 +9,6 @@ permalink: /projects.html
   <a href="{{ '/' | relative_url }}"> Home</a> |
   <a href="{{ '/resume.html' | relative_url }}"> Resume</a> |
   <a href="{{ '/projects.html' | relative_url }}"> Projects</a> |
-  <a href="{{ '/contact.html' | relative_url }}"> Contact</a>
 </div>
 
 # Projects
