@@ -31,3 +31,17 @@ header {
 section {
   width: 80%;
 }
+
+@media print, screen and (min-width: 960px) {
+  header {
+    width: 180px;
+    position: fixed;
+  }
+
+  section {
+    width: calc(100% - 230px);
+    margin-left: 210px;
+    float: none;
+  }
+}
+
