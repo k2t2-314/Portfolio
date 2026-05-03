@@ -281,6 +281,7 @@ permalink: /projects.html
 ---
 
 ## Model-Based Magnetic Cleaning Robot 
+**Jan 2025 - May 2025**  
 **Course Project: Carnegie Mellon University (CMU)**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Model Predictive Control (MPC)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Optimization (iLQR)</span>
@@ -304,7 +305,7 @@ permalink: /projects.html
          alt="2D Trajectory Simulation" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>2D Simulation: iLQR Trajectory Optimization</strong>
+      <strong>iLQR Trajectory Optimization</strong>
     </figcaption>
   </figure>
 
@@ -313,7 +314,7 @@ permalink: /projects.html
          alt="Real-world Robot Trajectory" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Experimental Validation: Real-world Tracking</strong>
+      <strong>Real-world Tracking</strong>
     </figcaption>
   </figure>
 
@@ -327,6 +328,7 @@ permalink: /projects.html
 ---
 
 ## Self-Deployable Offshore Wave-Damping Curtain System
+**Feb 2023 - Feb 2024**  
 **Research Project: SJTU PRP Offshore Structures Group**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Marine Engineering</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Fluid-Structure Interaction (FSI)</span>
@@ -340,8 +342,9 @@ permalink: /projects.html
  
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
+  <div style="margin-bottom: 8px;"></div>
 
-1\. Engineered modular curtain cells using high-strength silicone rubber encapsulated by an interconnected PVC armor-plate interface. This hybrid design provides structural rigidity, protects the internal bladders from sharp marine debris, and mitigates thermal expansion under high-temperature exposure. Achieved a rapid, tangle-free deployment sequence (<8 s) through a motorized retraction system and layered folding patterns, validated to withstand cyclic hydrodynamic loads without leakage.
+1\. Engineered modular curtain cells using high-strength silicone rubber encapsulated by an interconnected **PVC** armor-plate interface. This hybrid design provides structural rigidity, protects the internal bladders from sharp marine debris, and mitigates thermal expansion under high-temperature exposure. Achieved a rapid, tangle-free deployment sequence **<8 s** through a motorized retraction system and layered folding patterns, validated to withstand cyclic hydrodynamic loads without leakage.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
@@ -350,7 +353,7 @@ permalink: /projects.html
          alt="Curtain System CAD Design" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>SolidWorks CAD: Modular Curtain & PVC Armor</strong>
+      <strong>Modular Curtain & PVC Armor</strong>
     </figcaption>
   </figure>
 
@@ -359,14 +362,14 @@ permalink: /projects.html
          alt="Prototype Real-shot" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Experimental Prototype: Wave-Tank Validation</strong>
+      <strong>Experimental Prototype</strong>
     </figcaption>
   </figure>
 
 </div>
 
 
-2\. Developed a Raspberry Pi-based control system featuring an Infrared (IR) remote interface to enable stand-off operations from a catamaran platform, mitigating high-risk close-range manual tasks. Implemented a closed-loop pressure monitoring logic that maintains internal stability within ±3%, incorporating safety interlocks for auto-deflation and over-inflation prevention. Wave tank results demonstrated a 25–30% peak wave height reduction, confirming the system's energy dissipation efficiency.
+2\. Developed a Raspberry Pi-based control system featuring an Infrared (IR) remote interface to enable stand-off operations from a catamaran platform, mitigating high-risk close-range manual tasks. Implemented a closed-loop pressure monitoring logic that maintains internal stability within **±3%**, incorporating safety interlocks for auto-deflation and over-inflation prevention. Wave tank results achieved about **70%** wave height reduction and **85%** energy attenuation.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
@@ -375,7 +378,7 @@ permalink: /projects.html
          alt="Wave Height vs Distance Plot" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Wave Height vs. Distance: Regular Sea States</strong>
+      <strong>Wave Height related to Distance</strong>
     </figcaption>
   </figure>
 
@@ -384,7 +387,7 @@ permalink: /projects.html
          alt="Wave Energy Dissipation Results" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Wave Energy Dissipation: Irregular Sea States</strong>
+      <strong>Wave Energy Dissipation</strong>
     </figcaption>
   </figure>
 
@@ -392,6 +395,7 @@ permalink: /projects.html
 
 
 </details>
+<div style="margin-bottom: 8px;"></div>
 
 ---
 
