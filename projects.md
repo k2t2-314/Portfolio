@@ -137,14 +137,28 @@ permalink: /projects.html
 
 2\. Designed a high-fidelity rehabilitation rig utilizing an electric damper and a closed-loop control architecture for smooth torque tracking. The system integrates a load cell and IMU for **multi-modal** sensor fusion, enabling responsive feedback and programmable resistance. This device ensures the acquisition of **high-quality dEMG** data within the framework of scientific experimental design, achieving a repetitive tracking error of less than **0.5°**.
 
-<figure style="flex: 2; margin: 0; text-align: center;">
-  <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
-       alt="CAD Design" 
-       style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
-  <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-    <strong>3D CAD of Wrist Rig</strong>
-  </figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1.8; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
+         alt="Finger Linkage CAD Design" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>3D CAD of Wrist Rig</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/GUI.png' | relative_url }}" 
+         alt="Wearable Prototype on Hand" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Experiment GUI</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
 
 3\. Engineered a high-dimensional time-series classification pipeline comparing 1D-CNN, RNN, and Random Forest algorithms to decode multi-channel sEMG signals into 7 predictive categories, achieving **85% accuracy in cross-day testing**. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns.
 
