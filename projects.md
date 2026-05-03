@@ -398,6 +398,7 @@ permalink: /projects.html
 ---
 
 ## Collaborative Robotic Arm Design and Simulation  
+**Sep 2023 - Jan 2024**
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotic Manipulators</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanism Design (CAD/CAE)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">MATLAB/Simulink</span>
@@ -409,50 +410,50 @@ permalink: /projects.html
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
-
-1\. Inspired by industrial standards like the JAKA Zu5, I designed a hollow-structure 6-DOF robotic arm that improves the payload-to-weight ratio by >25%. The design supports internal wiring and achieves a 1m reach within a total weight envelope of <2kg. Through rigorous CAD modeling and benchmarking against UR5e and Franka Emika, I optimized the joint configurations for peak torque, stiffness, and seamless integration of reducers and motors.
+<div style="margin-bottom: 8px;"></div>
+1\. Inspired by industrial standards like the **JAKA Zu5**, designed a hollow-structure 6-DOF robotic arm that improves the payload-to-weight ratio by **>25%**. The design supports internal wiring and achieves a 1m reach within a total weight envelope of **<2kg**. Through rigorous CAD modeling and benchmarking against UR5e and Franka Emika, optimized the joint configurations for peak torque, stiffness, and seamless integration of reducers and motors.
 
 
 <div style="margin: 1.5rem 0; text-align: center;">
   
-  <figure style="max-width: 80%; margin: 0 auto;">
+  <figure style="max-width: 50%; margin: 0 auto;">
     <img src="{{ '/assets/img/5-1.png' | relative_url }}" 
          alt="Collaborative Robotic Arm CAD Design" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
     <figcaption style="margin-top: 0.8rem; font-size: 0.85rem;">
-      <strong>6-DOF Collaborative Arm: Lightweight Hollow-Structure CAD Model</strong>
+      <strong>Lightweight Hollow-Structure Collaborative Arm</strong>
     </figcaption>
   </figure>
 
 </div>
 
 
-2\. Developed a MATLAB-based simulation framework to demonstrate advanced motion capabilities, including complex 3D trajectory tracking (e.g., dual-arm ball juggling). The system achieved an RMS path tracking error of <1.5mm, showcasing the feasibility of real-time collaborative manipulation. This data-driven approach ensured that the motor and reducer selections met the dynamic requirements of high-speed, high-precision industrial applications.
+2\. Developed a **MATLAB** simulation framework to demonstrate advanced motion capabilities, including complex 3D trajectory tracking like **dual-arm ball juggling**. The system achieved an RMS path tracking error of **<1.5mm**, showcasing the feasibility of real-time collaborative manipulation.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
-  <figure style="flex: 1; margin: 0; text-align: center;">
+  <figure style="flex: 1.1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/5-2.png' | relative_url }}" 
          alt="Robotic Arm Workspace Analysis" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Workspace Analysis: 1m Reach Visualization</strong>
+      <strong>Workspace Analysis</strong>
     </figcaption>
   </figure>
 
-  <figure style="flex: 1.2; margin: 0; text-align: center;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/5-4.png' | relative_url }}" 
          alt="Ball Juggling Path Tracking Results" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Motion Simulation: Ball Juggling Path Tracking</strong>
+      <strong>Ball Juggling Path Tracking</strong>
     </figcaption>
   </figure>
 
 </div>
 
 </details>
-
+<div style="margin-bottom: 8px;"></div>
 ---
 
 
