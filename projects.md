@@ -239,16 +239,16 @@ permalink: /projects.html
          alt="FEA Training Dataset" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Training Dataset: Labeled FEA Samples</strong>
+      <strong>Labeled FEA Samples</strong>
     </figcaption>
   </figure>
 
-  <figure style="flex: 1.2; margin: 0; text-align: center;">
+  <figure style="flex: 1.5; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/6-1.png' | relative_url }}" 
          alt="Auto-Meshing Inference Results" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
     <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Inference Results: ML-Predicted Mesh Refinement</strong>
+      <strong>ML-Predicted Mesh Refinement</strong>
     </figcaption>
   </figure>
 
@@ -259,7 +259,7 @@ permalink: /projects.html
 
 <div style="margin: 1.5rem 0; text-align: center;">
   <figure style="max-width: 90%; margin: 0 auto;">
-    <img src="{{ '/assets/img/6-3.png' | relative_url }}" 
+    <img src="{{ '/assets/img/result.png' | relative_url }}" 
          alt="App User Interface" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
     <figcaption style="margin-top: 0.8rem; font-size: 0.85rem;">
@@ -268,8 +268,10 @@ permalink: /projects.html
   </figure>
 </div>
 
-</details>
+3\. Reduced mesh parameter prediction time from 20+ minutes (Ansys CPU simulation) to ~15 seconds via a deployable Docker web application, enabling offline mesh generation without any physical simulation dependency.
 
+</details>
+<div style="margin-bottom: 8px;"></div>
 ---
 
 ## Model-Based Control System for Magnetic Whiteboard Cleaning Robot 
