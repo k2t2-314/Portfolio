@@ -11,10 +11,13 @@ permalink: /projects.html
   <a href="{{ '/projects.html' | relative_url }}"> Projects</a> |
 </div>
 
+# Professional Experience
+
 # Projects
 ---
 
-## Flexible Lubricator Handling Platform
+## Flexible Lubricator Handling & Inspection Platform
+**Dec 2024 – Jun 2025**  
 **Industry Collaboration: WellMaster Corporation, SJTU**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">PID Control</span>
