@@ -12,6 +12,76 @@ permalink: /projects.html
 </div>
 
 # Professional Experience
+---
+
+## Actuation Module for Hand Exoskeleton   
+**Research Project: Carnegie Mellon University (CMU) | NeuroMechatronics Lab**  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Biosignal Processing</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Soft Robotics</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">3D Printing</span>  
+**Role:** Graduate Research Assistant  
+**Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
+**Impact:** Provides spinal cord injury (SCI) patients with a low-latency, intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.
+
+<details markdown="1">
+  <summary><strong>View Project Details</strong></summary>
+
+1\. Developed a low-profile, wearable finger linkage featuring iterative CAD packaging for cable routing and palm-mounted motor housing. By employing Bowden-cable routing for tendon mimicry, the system achieves a 60° ROM with <5 mm lateral shift. The Arduino-driven actuation delivers a peak torque of 0.18 Nm with ~180 ms latency, while integrating spring-guided soft returns and mechanical stops to ensure user safety and ergonomic comfort.
+
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 2; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-1.png' | relative_url }}" 
+         alt="Finger Linkage CAD Design" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Iterative CAD Packaging of Finger Linkage</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-2.png' | relative_url }}" 
+         alt="Wearable Prototype on Hand" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Functional Prototype & Wearable Interface</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
+2\. Designed a high-fidelity rehabilitation rig utilizing an electric damper and a closed-loop control architecture for smooth torque tracking. The system integrates a load cell and IMU for multi-modal sensor fusion, enabling responsive feedback and programmable resistance. By deploying an embedded sEMG decoder, the platform achieves real-time, intent-based control with a system-level latency of <500 ms, validated through rigorous actuator-response trials.
+
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 2; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
+         alt="Finger Linkage CAD Design" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>3D CAD of Wrist Rig</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/2-4.png' | relative_url }}" 
+         alt="Wearable Prototype on Hand" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Wrist Rig Prototype</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
+3\. Engineered a high-dimensional time-series classification pipeline utilizing a 1D-CNN architecture to decode multi-channel sEMG signals into 7 predictive categories. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns and validating the rig's functionality through qualitative performance metrics.
+
+
+</details>
+
+
 
 # Projects
 ---
@@ -91,75 +161,6 @@ permalink: /projects.html
   </figure>
 
 </div>
-
-</details>
-
----
-
-## Actuation Module for Hand Exoskeleton   
-**Research Project: Carnegie Mellon University (CMU) | NeuroMechatronics Lab**  
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Biosignal Processing</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Soft Robotics</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Embedded Systems</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">3D Printing</span>  
-**Role:** Graduate Research Assistant  
-**Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
-**Impact:** Provides spinal cord injury (SCI) patients with a low-latency, intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.
-
-<details markdown="1">
-  <summary><strong>View Project Details</strong></summary>
-
-1\. Developed a low-profile, wearable finger linkage featuring iterative CAD packaging for cable routing and palm-mounted motor housing. By employing Bowden-cable routing for tendon mimicry, the system achieves a 60° ROM with <5 mm lateral shift. The Arduino-driven actuation delivers a peak torque of 0.18 Nm with ~180 ms latency, while integrating spring-guided soft returns and mechanical stops to ensure user safety and ergonomic comfort.
-
-<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
-  
-  <figure style="flex: 2; margin: 0; text-align: center;">
-    <img src="{{ '/assets/img/2-1.png' | relative_url }}" 
-         alt="Finger Linkage CAD Design" 
-         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
-    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Iterative CAD Packaging of Finger Linkage</strong>
-    </figcaption>
-  </figure>
-
-  <figure style="flex: 1; margin: 0; text-align: center;">
-    <img src="{{ '/assets/img/2-2.png' | relative_url }}" 
-         alt="Wearable Prototype on Hand" 
-         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
-    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Functional Prototype & Wearable Interface</strong>
-    </figcaption>
-  </figure>
-
-</div>
-
-2\. Designed a high-fidelity rehabilitation rig utilizing an electric damper and a closed-loop control architecture for smooth torque tracking. The system integrates a load cell and IMU for multi-modal sensor fusion, enabling responsive feedback and programmable resistance. By deploying an embedded sEMG decoder, the platform achieves real-time, intent-based control with a system-level latency of <500 ms, validated through rigorous actuator-response trials.
-
-<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
-  
-  <figure style="flex: 2; margin: 0; text-align: center;">
-    <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
-         alt="Finger Linkage CAD Design" 
-         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
-    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>3D CAD of Wrist Rig</strong>
-    </figcaption>
-  </figure>
-
-  <figure style="flex: 1; margin: 0; text-align: center;">
-    <img src="{{ '/assets/img/2-4.png' | relative_url }}" 
-         alt="Wearable Prototype on Hand" 
-         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
-    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
-      <strong>Wrist Rig Prototype</strong>
-    </figcaption>
-  </figure>
-
-</div>
-
-3\. Engineered a high-dimensional time-series classification pipeline utilizing a 1D-CNN architecture to decode multi-channel sEMG signals into 7 predictive categories. By integrating a real-time data acquisition and inference framework, the system achieves sub-second latency for seamless intention forecasting. The model was iteratively optimized via a data-driven feedback loop from user research trials, ensuring robust classification across diverse movement patterns and validating the rig's functionality through qualitative performance metrics.
-
 
 </details>
 
