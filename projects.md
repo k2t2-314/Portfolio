@@ -28,7 +28,7 @@ permalink: /projects.html
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
-<br>
+<div style="margin-bottom: 8px;"></div>
 
 1\. Designed a modular 5-DOF cantilever gantry and a torque-matched flipping platform using aluminum profiles and custom brackets. Conducted **ANSYS static** and **modal simulations** to validate structural integrity, successfully limiting maximum deflection to <0.7 mm and ensuring a modal frequency >25 Hz to eliminate operational resonance.
 
