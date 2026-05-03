@@ -15,6 +15,15 @@ title: Home
 
 M.S. student in the Mechanical Engineering department at CMU major in Artificial Intelligence Engineering, with extensive experience in mechanical design, rapid prototyping, robotics operation and simulation. At the same time, capabilities in full-stack ML deployment are validated during the real project.
 
+## Contact Information
+
+**Email 1**: xinxuant@andrew.cmu.edu  
+**Email 2**: miaogu313@163.com    
+**Linkedin**: [Xinxuan Tang](https://www.linkedin.com/in/xinxuant/)  
+**GitHub**: [k2t2-314](https://github.com/k2t2-314)  
+**Current Location**: Pittsburgh, PA  
+**Seeking**: 2026 Summer Internship or Full-time Job in Robotics / Mechanical Engineer / Mechatronics / Artificial Intelligence areas
+
 ## Skills
 ### Artificial Intelligence and Software
 *Focus: Data processing, Annotation, Model Training, and Cloud Deployment.*
