@@ -14,15 +14,16 @@ permalink: /projects.html
 # Projects
 ---
 
-## Flexible Lubricator Handling & Inspection Platform
-**Industry Collaboration: WellMaster Corporation & SJTU**  
+## Flexible Lubricator Handling Platform
+**Industry Collaboration: WellMaster Corporation, SJTU**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Computer Vision</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotics Control</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">PID Control</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanical Design</span>
-<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">CAE/FEA</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">ANSYS</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Parameter Optimization</span>  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">SolidWorks</span>  
 **Role:** Lead Mechanical Designer    
-**Summary:** Developed a production-ready, 5-DOF gantry system that automates the extraction, reorientation, and visual inspection of 200-lb industrial lubricators, increasing throughput by 40%.  
+**Summary:** Developed a production-ready 5-DOF gantry system that automates the extraction, reorientation and visual inspection of industrial lubricators, increasing throughput and saving operation time.  
 **Impact:** Eliminates manual handling of 200-lb lubricators in hazardous factory environments, reducing workplace injury risk while enabling 24/7 automated quality control at industrial scale.
 
 <details markdown="1">
