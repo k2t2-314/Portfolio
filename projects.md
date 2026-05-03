@@ -398,7 +398,7 @@ permalink: /projects.html
 ---
 
 ## Collaborative Robotic Arm Design and Simulation  
-**Sep 2023 - Jan 2024**
+**Sep 2023 - Jan 2024**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotic Manipulators</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanism Design (CAD/CAE)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">MATLAB/Simulink</span>
