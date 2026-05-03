@@ -92,6 +92,7 @@ permalink: /projects.html
 
 </details>
 
+<div style="margin-bottom: 8px;"></div>
 ---
 
 ## Neuro-Mechatronics Lab, CMU
@@ -162,7 +163,7 @@ permalink: /projects.html
 
 
 </details>
-
+<div style="margin-bottom: 8px;"></div>
 ---
 
 ## Auto-Meshing App for FEA Optimization
