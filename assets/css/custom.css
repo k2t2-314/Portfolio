@@ -11,6 +11,12 @@
   line-height: 1.6;
 }
 
+/* Reduce logo/photo size */
+header img {
+  max-width: 80px;
+  width: 100%;
+}
+
 /* Narrow the sidebar */
 .wrapper {
   width: 100%;
