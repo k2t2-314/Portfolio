@@ -139,7 +139,7 @@ permalink: /projects.html
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
   
-  <figure style="flex: 1.8; margin: 0; text-align: center;">
+  <figure style="flex: 1; margin: 0; text-align: center;">
     <img src="{{ '/assets/img/2-3.png' | relative_url }}" 
          alt="Finger Linkage CAD Design" 
          style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
