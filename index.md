@@ -53,7 +53,8 @@ Python, C, C++, MATLAB, Linux, Git, Julia
   </tr>
 </table>
 
-**M.S. in Artificial Intelligence, School of Mechanical Engineering (Dec 2026)**   
+**M.S. in Artificial Intelligence, School of Mechanical Engineering**  
+Aug 2025 - Dec 2026 (Expected)
 Focus: Robot Design, Wearble Device, Machine Learning, AI System Deployment, Reinforcement Learning   
 **GPA 4.00**
 
@@ -66,7 +67,8 @@ Focus: Robot Design, Wearble Device, Machine Learning, AI System Deployment, Rei
   </tr>
 </table>
 
-**Exchange Program, School of Mechanical Engineering (May 2025)**    
+**Exchange Program, School of Mechanical Engineering**    
+Aug 2024 - May 2025    
 Focus: Mordern Control Systems, FEA  
 **GPA 3.83**
 
@@ -80,5 +82,6 @@ Focus: Mordern Control Systems, FEA
 </table>
 
 **B.S. in Mechanical Engineering (Jun 2025)**  
+Sep 2021 - May 2025    
 Focus: Mordern Manufacturing Process, Robotics, Mechatronics  
 **GPA 3.57**
