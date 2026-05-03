@@ -94,8 +94,6 @@ permalink: /projects.html
 
 ---
 
-
-
 ## Neuro-Mechatronics Lab, CMU
 **Sep 2025 - Present** 
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Exoskeleton</span>
@@ -110,7 +108,8 @@ permalink: /projects.html
 
 <details markdown="1">
   <summary><strong>View Project Details</strong></summary>
-88
+<div style="margin-bottom: 8px;"></div>
+  
 1\. Developed a light wearable finger linkage featuring iterative CAD packaging for cable routing and palm-mounted motor housing. The system achieves **33%** improvement in wrist range of motion in patient trials. The Arduino-driven actuation delivers a peak torque of **0.18 Nm** while integrating spring-guided soft returns and mechanical stops to ensure user safety and ergonomic comfort.
 
 <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
