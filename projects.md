@@ -106,7 +106,7 @@ permalink: /projects.html
 **Role:** Graduate Research Assistant  
 **Summary:** Designed a wearable actuation module for hand exoskeletons featuring an integrated sEMG decoder. The system assists SCI patients in daily tasks via finger actuation while utilizing the wrist module for high-fidelity signal processing and intention decoding to close the loop for rehabilitation.  
 **Links:** 
-  <a href="https://github.com/k2t2-314/wrist_rig" target="_blank" style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 3px 10px; font-size: 0.9em; text-decoration: none;">GitHub</a>  
+  <a href="https://github.com/k2t2-314/wrist_rig" target="_blank">GitHub</a>  
 **Impact:** Provides spinal cord injury (SCI) patients with an intent-driven assistive device that restores functional hand movement, supporting independence in daily tasks and accelerating motor rehabilitation.  
 
 <details markdown="1">
@@ -227,7 +227,7 @@ permalink: /projects.html
 **Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.  
 **Links:** 
 <a href="https://github.com/k2t2-314/mesh-refinement-prediction" target="_blank">GitHub</a>, 
-<a href="https://huggingface.co/spaces/ecopus/mesh-refinement-agent" target="_blank">Hugging Face Demo ↗</a>  
+<a href="https://huggingface.co/spaces/ecopus/mesh-refinement-agent" target="_blank">Hugging Face Demo</a>  
 **Impact:** Reduces manual FEA pre-processing time for mechanical engineers, lowering the barrier to simulation-driven design and enabling faster, more reliable product development cycles.
 
 
