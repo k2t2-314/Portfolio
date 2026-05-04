@@ -216,6 +216,66 @@ permalink: /projects.html
 <div style="margin-bottom: 8px;"></div>
 ---
 
+## A Tail Solution for Two-Wheeled Robots
+**Jan 2026 - May 2026**  
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Bio-inspired Design</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanical Fabrication</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Control Systems</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Dynamic Simulation</span>
+<span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">MATLAB</span>  
+**Role:** Mechanical Designer    
+**Summary:** Designed and fabricated a three-jointed bio-inspired robotic tail to address the inherent instability of two-wheeled legged robots on uneven terrain. Validated through physical experiments and MATLAB simulations, demonstrating significant improvements in stability and control performance.  
+**Impact:** Achieves greater clearance height and fewer control jittering over the baseline two-wheeled robot, offering a lightweight mechanical solution to dynamic stabilization without relying solely on active control algorithms.  
+
+<details markdown="1">
+  <summary><strong>View Project Details</strong></summary>
+
+<div style="margin-bottom: 8px;"></div>
+
+1\. Designed a three-jointed robotic tail inspired by biological tail mechanics, targeting the center-of-mass shifting behavior observed in animals navigating uneven terrain. The tail structure was fabricated and integrated onto a standard two-wheeled legged robot platform, providing passive and active stabilization across varied surface conditions.
+
+<div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 15px; margin: 1.2rem 0;">
+  
+  <figure style="flex: 1.5; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/CAD design of the whole system.png' | relative_url }}" 
+         alt="FEA Training Dataset" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>CAD Design</strong>
+    </figcaption>
+  </figure>
+
+  <figure style="flex: 1; margin: 0; text-align: center;">
+    <img src="{{ '/assets/img/Actual Photos.jpg' | relative_url }}" 
+         alt="Auto-Meshing Inference Results" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee;">
+    <figcaption style="margin-top: 0.5rem; font-size: 0.85rem;">
+      <strong>Product Display Images</strong>
+    </figcaption>
+  </figure>
+
+</div>
+
+
+2\. Conducted MATLAB dynamic and kinematic simulations to model center-of-mass displacement during attitude changes, validating the compatibility of **PID** and **LQR** control algorithms with the tail actuation system. Simulation results confirmed stable control response across a range of terrain profiles.  
+
+  <figure style="max-width: 60%; margin: 0 auto;">
+    <img src="{{ '/assets/img/Sim_control_results.png' | relative_url }}" 
+         alt="App User Interface" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #eee; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <figcaption style="margin-top: 0.8rem; font-size: 0.85rem;">
+      <strong>Simscape Physical Plant Model</strong>
+    </figcaption>
+  </figure>
+  
+
+3\. Validated the complete system through physical experiments, achieving **10 times** greater clearance height and **20%** fewer control jittering compared to the baseline model, confirming the tail design's effectiveness as a practical stabilization mechanism.
+
+
+</details>
+<div style="margin-bottom: 8px;"></div>
+---
+
 ## Auto-Meshing App for FEA Optimization
 **Oct 2025 - Dec 2025**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Scientific Computing</span>
@@ -223,7 +283,7 @@ permalink: /projects.html
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Machine Learning (MLP)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Feature Engineering</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Full-Stack Deployment</span>  
-**Role:** Backend & Feature Science Developer  
+**Role:** Backend Science Developer  
 **Summary:** Developed a fully automated pipeline for FEA simulation and mesh optimization. Integrated geometric feature extraction with deep learning to predict optimal mesh parameters, significantly accelerating the pre-processing workflow for mechanical components.  
 **Links:** 
 <a href="https://github.com/k2t2-314/mesh-refinement-prediction" target="_blank">GitHub</a>, 
@@ -280,6 +340,7 @@ permalink: /projects.html
 <div style="margin-bottom: 8px;"></div>
 ---
 
+
 ## Model-Based Magnetic Cleaning Robot 
 **Jan 2025 - May 2025**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Model Predictive Control (MPC)</span>
@@ -326,7 +387,7 @@ permalink: /projects.html
 
 ---
 
-## Self-Deployable Offshore Wave-Damping Curtain System
+## Deployable Wave-Damping Curtain System
 **Feb 2023 - Feb 2024**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Marine Engineering</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Fluid-Structure Interaction (FSI)</span>
@@ -397,14 +458,14 @@ permalink: /projects.html
 
 ---
 
-## Collaborative Robotic Arm Design and Simulation  
+## A Collaborative Robotic Arm Design
 **Sep 2023 - Jan 2024**  
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Robotic Manipulators</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Mechanism Design (CAD/CAE)</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">MATLAB/Simulink</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Kinematics & Dynamics</span>
 <span style="background: #f0f0f0; border: 1px solid #ccc; border-radius: 4px; padding: 2px 6px; font-family: monospace; font-size: 0.9em; white-space: nowrap;">Trajectory Planning</span>  
-**Role:** Designer & Simulation Engineer  
+**Role:** Designer    
 **Summary:** Engineered a lightweight, 6-DOF collaborative robotic arm with an optimized payload-to-weight ratio. Conducted comprehensive market benchmarking and MATLAB-based dynamic simulations to validate high-precision trajectory tracking for collaborative manipulation tasks.  
 **Impact:** Advances the design of lightweight collaborative robots for human-safe manufacturing environments, where payload efficiency directly translates to lower energy costs and broader deployment feasibility.
 
